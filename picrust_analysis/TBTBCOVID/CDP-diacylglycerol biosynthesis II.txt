@@ -1,0 +1,49 @@
+Readcount,Genus/Species
+252,Neisseria
+131,Haemophilus
+116,Haemophilus parainfluenzae
+65,Mycobacterium tuberculosis
+47,Stenotrophomonas maltophilia
+42,Eikenella corrodens
+39,Lautropia mirabilis
+34,Escherichia coli
+28,Aggregatibacter
+28,Aggregatibacter segnis
+27,Pseudomonas
+23,Klebsiella pneumoniae
+23,Neisseria bacilliformis
+20,Kingella oralis
+15,Enterobacter
+14,Kingella denitrificans
+14,Haemophilus parahaemolyticus
+11,Neisseria macacae
+11,Ottowia sp._HMT_894
+11,Haemophilus haemolyticus
+11,Haemophilus influenzae
+10,Neisseria elongata
+8,Mycobacterium
+8,Campylobacter curvus
+7,Neisseria oralis
+5,Cardiobacterium valvarum
+5,Haemophilus aegyptius
+4,Cronobacter sakazakii
+4,Aggregatibacter sp._HMT_949
+3,Stenotrophomonas
+3,Kluyvera ascorbata
+3,Acidovorax
+3,Burkholderia cepacia
+3,Haemophilus pittmaniae
+3,Acinetobacter
+2,Aggregatibacter aphrophilus
+2,Cardiobacterium hominis
+2,Mycobacterium leprae
+2,Streptococcus
+1,Pseudomonas fluorescens
+1,Pseudomonas stutzeri
+1,Pseudomonas otitidis
+1,Acidovorax temperans
+1,Prevotella
+1,Haemophilus sp._HMT_259
+1,Kingella
+1,Serratia marcescens
+1,Enterobacter cancerogenus

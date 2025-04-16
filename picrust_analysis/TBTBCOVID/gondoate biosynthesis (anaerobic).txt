@@ -1,0 +1,126 @@
+Readcount,Genus/Species
+258,Neisseria
+207,Prevotella
+131,Haemophilus
+116,Prevotella melaninogenica
+116,Haemophilus parainfluenzae
+71,Prevotella salivae
+65,Mycobacterium tuberculosis
+58,Prevotella oris
+57,Stenotrophomonas maltophilia
+50,Campylobacter concisus
+42,Eikenella corrodens
+39,Lautropia mirabilis
+37,Capnocytophaga
+36,Actinomyces
+34,Ligilactobacillus salivarius
+34,Escherichia coli
+33,Prevotella denticola
+30,Prevotella histicola
+28,Aggregatibacter segnis
+28,Capnocytophaga leadbetteri
+28,Granulicatella adiacens
+28,Aggregatibacter
+28,Capnocytophaga sputigena
+27,Pseudomonas
+25,Schaalia
+25,Campylobacter
+23,Klebsiella pneumoniae
+23,Neisseria bacilliformis
+20,Prevotella jejuni
+20,Kingella oralis
+19,Prevotella sp._HMT_304
+18,Prevotella oulorum
+17,Campylobacter gracilis
+16,Neisseria macacae
+16,Streptococcus
+15,Enterobacter
+15,Campylobacter curvus
+14,Kingella denitrificans
+14,Haemophilus parahaemolyticus
+13,Campylobacter showae
+12,Acinetobacter
+11,Haemophilus influenzae
+11,Ottowia sp._HMT_894
+11,Haemophilus haemolyticus
+11,Sphingomonas glacialis
+11,Prevotella pleuritidis
+10,Neisseria elongata
+9,Prevotella maculosa
+9,Capnocytophaga gingivalis
+8,Mycobacterium
+8,Capnocytophaga granulosa
+8,Prevotella buccae
+7,Capnocytophaga endodontalis
+7,Neisseria oralis
+7,Desulfovibrio fairfieldensis
+7,Acinetobacter baumannii
+7,Tannerella sp._HMT_286
+6,Desulfomicrobium orale
+6,Prevotella shahii
+6,Prevotella multisaccharivorax
+5,Prevotella dentalis
+5,Granulicatella
+5,Cardiobacterium valvarum
+5,Haemophilus aegyptius
+5,Achromobacter xylosoxidans
+5,Tannerella
+4,Aggregatibacter sp._HMT_949
+4,Prevotella marshii
+4,Bosea vestrisii
+4,Cronobacter sakazakii
+3,Prevotella koreensis
+3,Stenotrophomonas
+3,Prevotella scopos
+3,Moraxella
+3,Haemophilus pittmaniae
+3,Prevotella saccharolytica
+3,Kluyvera ascorbata
+3,Tannerella forsythia
+3,Anoxybacillus flavithermus
+3,Lactobacillus
+3,Acidovorax
+3,Enterococcus faecalis
+3,Burkholderia cepacia
+2,Prevotella oralis
+2,Arthrospira platensis
+2,Aggregatibacter aphrophilus
+2,Lactiplantibacillus
+2,Brevundimonas diminuta
+2,Acinetobacter junii
+2,Paracoccus yeei
+2,Prevotella multiformis
+2,Cardiobacterium hominis
+2,Campylobacter rectus
+2,Prevotella enoeca
+2,Mycobacterium leprae
+2,Cutibacterium acnes
+2,Gemella
+2,Staphylococcus
+2,Prevotella micans
+1,Moraxella osloensis
+1,Granulicatella elegans
+1,Pseudomonas fluorescens
+1,Enterococcus
+1,Haemophilus sp._HMT_259
+1,Pseudomonas otitidis
+1,Pseudomonas stutzeri
+1,Limosilactobacillus
+1,Porphyromonas
+1,Lactococcus lactis
+1,Brucella anthropi
+1,Kingella
+1,Arachnia propionica
+1,Acidovorax temperans
+1,Prevotella veroralis
+1,Prevotella baroniae
+1,Roseomonas
+1,Enterobacter cancerogenus
+1,Selenomonas sputigena
+1,Parvimonas
+1,Actinomyces oricola
+1,Serratia marcescens
+1,Acidipropionibacterium acidifaciens
+1,Megasphaera micronuciformis
+1,Anaeroglobus geminatus
+1,Veillonella

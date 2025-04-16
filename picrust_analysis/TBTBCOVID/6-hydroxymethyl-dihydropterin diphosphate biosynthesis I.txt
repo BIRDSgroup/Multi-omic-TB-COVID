@@ -1,0 +1,79 @@
+Readcount,Genus/Species
+257,Neisseria
+131,Haemophilus
+120,Prevotella
+116,Haemophilus parainfluenzae
+116,Prevotella melaninogenica
+76,Streptococcus
+65,Mycobacterium tuberculosis
+57,Stenotrophomonas maltophilia
+45,Corynebacterium
+42,Eikenella corrodens
+39,Lautropia mirabilis
+34,Escherichia coli
+28,Aggregatibacter segnis
+28,Aggregatibacter
+27,Pseudomonas
+23,Neisseria bacilliformis
+23,Klebsiella pneumoniae
+20,Kingella oralis
+20,Leptotrichia wadei
+16,Prevotella nanceiensis
+15,Enterobacter
+14,Haemophilus parahaemolyticus
+14,Neisseria macacae
+14,Kingella denitrificans
+12,Acinetobacter
+11,Haemophilus haemolyticus
+11,Haemophilus influenzae
+11,Streptococcus mutans
+10,Neisseria elongata
+9,Prevotella baroniae
+8,Mycobacterium
+8,Staphylococcus
+7,Prevotella veroralis
+7,Corynebacterium matruchotii
+7,Tannerella sp._HMT_286
+7,Acinetobacter baumannii
+7,Neisseria oralis
+6,Corynebacterium durum
+6,Prevotella oralis
+5,Prevotella scopos
+5,Haemophilus aegyptius
+5,Cardiobacterium valvarum
+5,Dolosigranulum pigrum
+5,Streptococcus sobrinus
+5,Achromobacter xylosoxidans
+4,Aggregatibacter sp._HMT_949
+4,Cronobacter sakazakii
+3,Moraxella
+3,Stenotrophomonas
+3,Tannerella
+3,Prevotella jejuni
+3,Kluyvera ascorbata
+3,Anoxybacillus flavithermus
+3,Haemophilus pittmaniae
+3,Enterococcus faecalis
+2,Arthrospira platensis
+2,Acinetobacter junii
+2,Mycobacterium leprae
+2,Aggregatibacter aphrophilus
+2,Cardiobacterium hominis
+2,Lactiplantibacillus
+1,Pseudomonas fluorescens
+1,Pseudomonas otitidis
+1,Pseudomonas stutzeri
+1,Arachnia propionica
+1,Haemophilus sp._HMT_259
+1,Streptococcus downei
+1,Prevotella sp._HMT_304
+1,Serratia marcescens
+1,Streptococcus peroris
+1,Capnocytophaga
+1,Enterobacter cancerogenus
+1,Gemella
+1,Corynebacterium diphtheriae
+1,Brucella anthropi
+1,Streptococcus agalactiae
+1,Veillonella
+1,Kingella

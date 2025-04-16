@@ -1,0 +1,25 @@
+INFO Selected: Output dir: placement_working/epa_out/
+INFO Selected: Query file: placement_working/study_seqs_hmmalign.fasta
+INFO Selected: Tree file: /data/users/CS18D017/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database_new/homd-v3v4/homd-v3v4.tre
+INFO Selected: Reference MSA: placement_working/ref_seqs_hmmalign.fasta
+INFO Selected: Filtering by accumulated threshold: 0.99
+INFO Selected: Maximum number of placements per query: 100
+INFO Selected: Automatic switching of use of per rate scalers
+INFO Selected: Preserving the root of the input tree
+INFO Selected: Specified model file: /data/users/CS18D017/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database_new/homd-v3v4/homd-v3v4.model
+INFO Selected: Reading queries in chunks of: 5000
+INFO Selected: Using threads: 80
+INFO     ______ ____   ___           _   __ ______
+        / ____// __ \ /   |         / | / // ____/
+       / __/  / /_/ // /| | ______ /  |/ // / __  
+      / /___ / ____// ___ |/_____// /|  // /_/ /  
+     /_____//_/    /_/  |_|      /_/ |_/ \____/ (v0.3.8)
+INFO Using model parameters:
+INFO    Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.430599 (user),  weights&rates: (0.25,0.0213649) (0.25,0.204221) (0.25,0.762377) (0.25,3.01204) 
+        Base frequencies (user): 0.246024 0.191212 0.303773 0.258991 
+        Substitution rates (user): 0.919823 2.59041 1.22069 0.829377 3.91666 1
+INFO Output file: placement_working/epa_out/epa_result.jplace
+INFO 5000 Sequences done!
+INFO 7266 Sequences done!
+INFO Time spent placing: 15s
+INFO Elapsed Time: 16s

@@ -1,0 +1,37 @@
+Readcount,Genus/Species
+65,Mycobacterium tuberculosis
+55,Veillonella
+39,Lautropia mirabilis
+34,Escherichia coli
+27,Pseudomonas
+23,Klebsiella pneumoniae
+15,Enterobacter
+8,Mycobacterium
+6,Haemophilus
+5,Achromobacter xylosoxidans
+4,Cronobacter sakazakii
+4,Peptidiphaga gingivicola
+4,Bosea vestrisii
+4,Microbacterium flavescens
+3,Burkholderia cepacia
+3,Neisseria
+3,Neisseria macacae
+3,Corynebacterium kroppenstedtii
+3,Kluyvera ascorbata
+2,Streptococcus
+2,Dermabacter hominis
+2,Mycobacterium leprae
+1,Pseudomonas fluorescens
+1,Pseudomonas otitidis
+1,Aggregatibacter sp._HMT_949
+1,Serratia marcescens
+1,Actinomyces graevenitzii
+1,Acidovorax temperans
+1,Enterobacter cancerogenus
+1,Cardiobacterium valvarum
+1,Kingella oralis
+1,Roseomonas
+1,Prevotella
+1,Acidipropionibacterium acidifaciens
+1,Microbacterium
+1,Pseudomonas stutzeri

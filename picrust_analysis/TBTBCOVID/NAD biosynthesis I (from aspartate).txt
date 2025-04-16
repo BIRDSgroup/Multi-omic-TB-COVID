@@ -1,0 +1,108 @@
+Readcount,Genus/Species
+252,Neisseria
+241,Prevotella
+117,Prevotella melaninogenica
+65,Mycobacterium tuberculosis
+53,Porphyromonas
+45,Alloprevotella rava
+41,Porphyromonas sp._HMT_285
+41,Fusobacterium
+39,Lautropia mirabilis
+38,Prevotella pallens
+37,Prevotella histicola
+34,Escherichia coli
+33,Prevotella denticola
+27,Pseudomonas
+23,Klebsiella pneumoniae
+23,Neisseria bacilliformis
+22,Cloacibacterium normanense
+21,Eikenella corrodens
+20,Prevotella jejuni
+19,Porphyromonas endodontalis
+17,Prevotella sp._HMT_304
+17,Fusobacterium periodonticum
+17,Neisseria macacae
+16,Peptostreptococcus
+16,Fusobacterium nucleatum_subsp._polymorphum
+15,Enterobacter
+14,Olsenella sp._HMT_807
+14,Alloprevotella tannerae
+11,Prevotella pleuritidis
+11,Sphingomonas glacialis
+10,Neisseria elongata
+10,Staphylococcus
+10,Peptostreptococcus stomatis
+9,Prevotella baroniae
+9,Phocaeicola abscessus
+9,Bacteroidales_[G-2] bacterium_HMT_274
+8,Bifidobacterium
+8,Prevotella oralis
+8,Mycobacterium
+7,Streptococcus
+7,Peptostreptococcaceae_[G-6] [Eubacterium]_nodatum
+7,Porphyromonas gingivalis
+7,Neisseria oralis
+7,Eubacterium limosum
+6,Prevotella shahii
+6,Prevotella nigrescens
+6,Prevotella multisaccharivorax
+6,Bacteroides heparinolyticus
+5,Prevotella intermedia
+5,Achromobacter xylosoxidans
+5,Fusobacterium necrophorum
+5,Prevotella scopos
+4,Bifidobacterium longum
+4,Prevotella marshii
+4,Bosea vestrisii
+4,Cronobacter sakazakii
+3,Burkholderia cepacia
+3,Prevotella multiformis
+3,Microbacterium flavescens
+3,Bifidobacterium breve
+3,Tannerella forsythia
+3,Prevotella koreensis
+3,Anoxybacillus flavithermus
+3,Prevotella saccharolytica
+3,Kluyvera ascorbata
+3,Prevotella veroralis
+3,Prevotella buccae
+2,Granulicatella adiacens
+2,Moraxella
+2,Corynebacterium
+2,Paracoccus yeei
+2,Prevotella enoeca
+2,Brevundimonas diminuta
+2,Mycobacterium leprae
+2,Olsenella
+2,Arthrospira platensis
+2,Gemella
+2,Prevotella micans
+1,Pseudomonas fluorescens
+1,Haemophilus
+1,Cardiobacterium valvarum
+1,Acinetobacter
+1,Moraxella osloensis
+1,Enterobacter cancerogenus
+1,Pseudomonas otitidis
+1,Serratia marcescens
+1,Aggregatibacter sp._HMT_949
+1,Actinomyces graevenitzii
+1,Kingella oralis
+1,Prevotella nanceiensis
+1,Corynebacterium diphtheriae
+1,Microbacterium
+1,Acidipropionibacterium acidifaciens
+1,Bacteroides
+1,Bacteroides zoogleoformans
+1,Porphyromonas catoniae
+1,Prevotella aurantiaca
+1,Prevotella oris
+1,Brucella anthropi
+1,Prevotella salivae
+1,Capnocytophaga
+1,Capnocytophaga endodontalis
+1,Peptostreptococcaceae_[G-6]
+1,Peptostreptococcaceae_[G-6] [Eubacterium]_minutum
+1,Megasphaera micronuciformis
+1,Peptoniphilus lacrimalis
+1,Pseudomonas stutzeri
