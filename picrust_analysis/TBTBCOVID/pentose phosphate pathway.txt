@@ -1,0 +1,222 @@
+Readcount,Genus/Species
+937,Streptococcus
+258,Neisseria
+256,Prevotella
+227,Rothia mucilaginosa
+206,Gemella
+202,Schaalia
+157,Porphyromonas sp._HMT_285
+138,Granulicatella adiacens
+132,Haemophilus
+117,Prevotella melaninogenica
+116,Haemophilus parainfluenzae
+89,Schaalia odontolytica
+73,Porphyromonas
+71,Prevotella salivae
+65,Mycobacterium tuberculosis
+63,Scardovia wiggsiae
+59,Actinomyces
+58,Alloprevotella rava
+58,Prevotella oris
+57,Stenotrophomonas maltophilia
+56,Bifidobacterium dentium
+55,Prevotella nanceiensis
+50,Campylobacter concisus
+49,Treponema
+47,Rothia dentocariosa
+46,Abiotrophia defectiva
+44,Parvimonas
+42,Eikenella corrodens
+42,Actinomyces graevenitzii
+39,Lautropia mirabilis
+38,Corynebacterium
+37,Prevotella histicola
+35,Limosilactobacillus fermentum
+34,Escherichia coli
+33,Stomatobaculum longum
+28,Treponema socranskii
+28,Pseudomonas
+28,Aggregatibacter segnis
+28,Aggregatibacter
+28,Granulicatella elegans
+27,Prevotella denticola
+26,Streptococcus anginosus
+25,Ligilactobacillus salivarius
+25,Campylobacter
+25,Oribacterium
+24,Lachnoanaerobaculum
+23,Neisseria bacilliformis
+23,Klebsiella pneumoniae
+21,Oribacterium asaccharolyticum
+20,Kingella oralis
+19,Prevotella sp._HMT_304
+19,Porphyromonas endodontalis
+18,Prevotella oulorum
+17,Streptococcus sanguinis
+17,Campylobacter gracilis
+17,Neisseria macacae
+16,Alloscardovia omnicolens
+16,Peptostreptococcus
+15,Enterobacter
+15,Campylobacter curvus
+14,Haemophilus parahaemolyticus
+14,Kingella denitrificans
+14,Mycoplasma salivarium
+14,Alloprevotella tannerae
+13,Campylobacter showae
+13,Parascardovia denticolens
+12,Acinetobacter
+11,Prevotella pleuritidis
+11,Eggerthia catenaformis
+11,Haemophilus haemolyticus
+11,Haemophilus influenzae
+11,Streptococcus mutans
+11,Ottowia sp._HMT_894
+11,Actinomyces sp._HMT_448
+11,Treponema denticola
+11,Sphingomonas glacialis
+10,Staphylococcus
+10,Rothia aeria
+10,Peptostreptococcus stomatis
+10,Neisseria elongata
+10,Prevotella baroniae
+9,Cloacibacterium normanense
+9,Selenomonas
+9,Bacteroidales_[G-2] bacterium_HMT_274
+9,Pyramidobacter piscolens
+9,Phocaeicola abscessus
+9,Prevotella maculosa
+9,Bifidobacterium
+8,Veillonella
+8,Prevotella veroralis
+8,Catonella morbi
+8,Prevotella oralis
+8,Shuttleworthia satelles
+8,Mycobacterium
+7,Mycoplasma
+7,Acinetobacter baumannii
+7,Desulfovibrio fairfieldensis
+7,Neisseria oralis
+7,Rothia
+7,Oribacterium sp._HMT_102
+7,Porphyromonas gingivalis
+7,Corynebacterium matruchotii
+7,Treponema lecithinolyticum
+7,Tannerella sp._HMT_286
+6,Prevotella nigrescens
+6,Granulicatella
+6,Prevotella shahii
+6,Corynebacterium durum
+6,Bacteroides heparinolyticus
+6,Desulfomicrobium orale
+6,Prevotella multisaccharivorax
+6,Limosilactobacillus
+5,Dolosigranulum pigrum
+5,Filifactor alocis
+5,Prevotella scopos
+5,Saccharibacteria_(TM7)_[G-1]
+5,Porphyromonas catoniae
+5,Haemophilus aegyptius
+5,Tannerella
+5,Cardiobacterium valvarum
+5,Achromobacter xylosoxidans
+5,Treponema parvum
+5,Streptococcus sobrinus
+5,Treponema maltophilum
+5,Prevotella dentalis
+5,Aggregatibacter sp._HMT_949
+4,Bifidobacterium longum
+4,Cronobacter sakazakii
+4,Bosea vestrisii
+4,Microbacterium flavescens
+4,Peptidiphaga gingivicola
+4,Schaalia cardiffensis
+4,Kocuria atrinae
+4,Treponema vincentii
+4,Prevotella marshii
+4,Gemella sanguinis
+4,Mycoplasma orale
+3,Acidovorax
+3,Treponema pectinovorum
+3,Burkholderia cepacia
+3,Tannerella forsythia
+3,Enterococcus faecalis
+3,Prevotella saccharolytica
+3,Prevotella buccae
+3,Prevotella koreensis
+3,Prevotella jejuni
+3,Anoxybacillus flavithermus
+3,Haemophilus pittmaniae
+3,Kocuria
+3,Stenotrophomonas
+3,Moraxella
+3,Streptococcus constellatus
+3,Corynebacterium kroppenstedtii
+3,Bifidobacterium breve
+3,Kluyvera ascorbata
+2,Campylobacter rectus
+2,Gardnerella vaginalis
+2,Cardiobacterium hominis
+2,Acinetobacter junii
+2,Schaalia sp._HMT_178
+2,Peptidiphaga sp._HMT_183
+2,Aggregatibacter aphrophilus
+2,Schaalia meyeri
+2,Prevotella enoeca
+2,Mycobacterium leprae
+2,Cutibacterium acnes
+2,Lactiplantibacillus
+2,Selenomonas sputigena
+2,Peptostreptococcaceae_[G-1]
+2,Micrococcus luteus
+2,Peptoniphilaceae_[G-1] bacterium_HMT_113
+2,Arthrospira platensis
+2,Brevundimonas diminuta
+2,Paracoccus yeei
+2,Prevotella multiformis
+2,Dermabacter hominis
+2,Prevotella micans
+1,Peptidiphaga
+1,Pseudomonas fluorescens
+1,Moraxella osloensis
+1,Lactococcus lactis
+1,Cutibacterium
+1,Pseudomonas otitidis
+1,Pseudomonas stutzeri
+1,Enterococcus
+1,Mobiluncus mulieris
+1,Bacteroides
+1,Arachnia propionica
+1,Bacteroides zoogleoformans
+1,Gemella morbillorum
+1,Capnocytophaga endodontalis
+1,Treponema putidum
+1,Actinomyces oricola
+1,Capnocytophaga
+1,Prevotella aurantiaca
+1,Actinomyces gerencseriae
+1,Acidipropionibacterium acidifaciens
+1,Haemophilus sp._HMT_259
+1,Streptococcus downei
+1,Kingella
+1,Acidovorax temperans
+1,Microbacterium
+1,Corynebacterium diphtheriae
+1,Roseomonas
+1,Brucella anthropi
+1,Fusobacterium
+1,Peptoniphilus lacrimalis
+1,Finegoldia magna
+1,Enterobacter cancerogenus
+1,Megasphaera micronuciformis
+1,Selenomonas noxia
+1,Serratia marcescens
+1,Selenomonas infelix
+1,Solobacterium moorei
+1,Peptostreptococcaceae_[G-7] [Eubacterium]_yurii_subsps._yurii_&_margaretiae
+1,Peptostreptococcaceae_[G-7]
+1,Lachnospiraceae_[G-2] bacterium_HMT_096
+1,Johnsonella ignava
+1,Corynebacterium jeikeium
+1,Streptococcus peroris
+1,Streptococcus agalactiae

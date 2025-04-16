@@ -1,0 +1,4 @@
+Readcount,Genus/Species
+29,Mycobacterium tuberculosis
+7,Mycobacterium
+2,Mycobacterium leprae

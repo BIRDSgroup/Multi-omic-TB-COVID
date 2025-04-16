@@ -1,0 +1,1006 @@
+  120  ls LVM_Multistrain/Preprocessing/Pycode/Demixer-main/scripts/Malawi_subset/Malawi_subset_merged.vcf
+  121  ls LVM_Multistrain/Preprocessing/Pycode/Demixer-main/scripts/Malawi_subset/
+  122  ls LVM_Multistrain/Preprocessing/Pycode/Demixer-main/Demixer-main/scripts/Malawi_subset/
+  123  ls LVM_Multistrain/Preprocessing/Pycode/Demixer-main/Demixer-main/scripts/Malawi_subset/Malawi_subset_merged.vcf 
+  124  more LVM_Multistrain/Preprocessing/Pycode/Demixer-main/Demixer-main/scripts/Malawi_subset/Malawi_subset_merged.vcf 
+  125  ls LVM_Multistrain/Preprocessing/Pycode/Demixer-main/Demixer-main/scripts/Malawi_subset/Malawi_subset_merged.vcf 
+  126  ls LVM_Multistrain/Preprocessing/Pycode/Demixer-main/Demixer-main/scripts/Malawi_subset/
+  127  ls LVM_Multistrain/Preprocessing/Pycode/Demixer-main/Demixer-main/scripts/
+  128  screen -r  215689.pts-161.birds
+  129  screen -r
+  130  screen -r 304461.pts-18.birds 
+  131  screen -r  216191.pts-18.birds
+  132  screen -r
+  133  screen -r 195796.Tbprofiler
+  134  screen 0r
+  135  screen -r
+  136  screen -r 56925.Esmenv    (Detached)
+  137  screen -r 56925.Esmenv    
+  138  ls
+  139  cd LVM_Multistrain/Preprocessing/Pycode/Demixer-main/Demixer-main/scripts/Malawi_subset/
+  140  ls
+  141  more 1379.vcf
+  142  cd
+  143   cd
+  144  cd fastq/fastq/isec/
+  145  ls
+  146  more Malawi_isec_qual_dp_snps_MAF.vcf 
+  147  ls
+  148  more Malawi_isec_only_MAF.vcf 
+  149  ls
+  150   bcftools view -H file.vcf | wc -l
+  151   bcftools view -H Malawi_isec_qual_dp_snps_MAF.vcf | wc -l
+  152  source activate /data/users/CS18D017/miniconda3
+  153   bcftools view -H Malawi_isec_qual_dp_snps_MAF.vcf | wc -l
+  154   bcftools view -H Malawi_isec_only_MAF.vcf  | wc -l
+  155   bcftools view -H ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Cryptic_data/all_merged.vcf.gz | wc -l
+  156  ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/
+  157  ls ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/
+  158  more ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz
+  159  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 10
+  160  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 20
+  161  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 30
+  162  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 40
+  163  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 50
+  164  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 60
+  165  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 70
+  166  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 80
+  167  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 90
+  168  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 100
+  169  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 120
+  170  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 110
+  171  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 115
+  172  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitroTB.vcf.gz | head -n 115
+  173  zcat ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Malwai_samples/invitro/invitro_new_0.vcf.gz | head -n 115
+  174  pwd
+  175   bcftools view -H ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Cryptic_data/all_merged.vcf.gz | wc -l
+  176  screen -r
+  177  screen -r  216191.pts-18.birds    
+  178  screen -r
+  179  screen -r 304461.pts-18.birds     
+  180  screen -r 
+  181  screen -r 216191.pts-18.birds     (Detached)
+  182  screen -r 216191.pts-18.birds    
+  183  screen -r 
+  184  screen -r 304461.pts-18.birds 
+  185  cd LVM_Multistrain/Preprocessing/DL-MTB-Pred/
+  186  ls
+  187  cd vcf_files/
+  188  ls
+  189  cp final_consensus.fasta ../
+  190  screen -r 304461.pts-18.birds 
+  191  pwd
+  192  cd ../
+  193  ls
+  194  more final_consensus.fasta 
+  195  pwd
+  196  cd ../
+  197  cd Pycode/Demixer-main/Demixer
+  198  ls
+  199  cp ~/fastq/fastq/isec/Malawi_isec_only_MAF.vcf input_vcf/
+  200  cp ~/LVM_Multistrain/Preprocessing/WGS_Indian_data/Cryptic_data/all_merged_MAF.0002.vcf.gz input_vcf/
+  201  screen -r 304461.pts-18.birds 
+  202  cd LVM_Multistrain/Preprocessing/WGS_Indian_data/Cryptic_data/
+  203  ls
+  204  du -sh all_merged_MAF.0002.vcf.gz
+  205  screeen -r
+  206  screen -r
+  207  screen -r 73587.pts-34.birds     
+  208  screen -r 304461.pts-18.birds 
+  209  source activate /data/users/CS18D017/miniconda3
+  210  freebayes --help
+  211  screen -r 304461.pts-18.birds 
+  212  top
+  213  cd LVM_Multistrain/Preprocessing/
+  214  cd Pycode
+  215  pwd
+  216  cd ../
+  217  find Pycode/ -type f -name "MAF" 
+  218  find Pycode/ -type f -name "maf" 
+  219  find Pycode/ -type f -name "AC" 
+  220  find Pycode/* -type f -name "AC" 
+  221  find -r Pycode/* -type f -name "AC" 
+  222  find Pycode/ -type f -exec grep -H "*AC*" {} +
+  223  find Pycode/ -type f -exec grep -H "*MAF*" {} +
+  224  find . -type f -name "*MAF*"
+  225  find Pycode/ -type f -name "*MAF*"
+  226  cd Pycode/Art_simulator/
+  227  ls
+  228  cd data_quanttb_coverage_10x
+  229  ls
+  230  source activate /data/users/CS18D017/miniconda3
+  231   bcftools view -H art_10_quanttb.vcf | wc -l
+  232   bcftools view -H art_10_quanttb_filter.vcf | wc -l
+  233  screen -r 304461.pts-18.birds 
+  234  bcftools filter -e 'MAF==0' -O z -o art_10_quanttb_MAF.vcf.gz art_10_quanttb.vcf
+  235   bcftools view -H art_10_quanttb_MAF.vcf.gz | wc -l
+  236   bcftools view -H art_10_quanttb_filter.vcf | wc -l
+  237  head -n 50 art_10_quanttb_filter.vcf
+  238  head -n 60 art_10_quanttb_filter.vcf
+  239  head -n 70 art_10_quanttb_filter.vcf
+  240  head -n 65 art_10_quanttb_filter.vcf
+  241  head -n 66 art_10_quanttb_filter.vcf
+  242  screen -r 304461.pts-18.birds 
+  243  pwd
+  244  screen -r 304461.pts-18.birds 
+  245  pwd
+  246  cd ../../../WGS_Indian_data/Cryptic_data/
+  247  ls
+  248  zcat all_merged_MAF.0002.vcf.gz | head -n 50
+  249  zcat all_merged_MAF.0002.vcf.gz | head -n 45
+  250  zcat all_merged_MAF.0002.vcf.gz | head -n 40
+  251  zcat all_merged_MAF.0002.vcf.gz | head -n 30
+  252  zcat all_merged_MAF.0002.vcf.gz | head -n 20
+  253  zcat all_merged_MAF.0002.vcf.gz | head -n 21
+  254  zcat all_merged_MAF.0002.vcf.gz | head -n 22
+  255  zcat all_merged_MAF.0002.vcf.gz | head -n 23
+  256  zcat all_merged_MAF.0002.vcf.gz | head -n 22
+  257  screen -r 304461.pts-18.birds 
+  258  source activate r_env_new
+  259  rstudio
+  260  cd LVM_Multistrain/Preprocessing/Pycode/Demixer-main/Demixer
+  261  ls
+  262  cd input_vcf/
+  263  ls
+  264  zcat invitro.vcf.gz | more
+  265  ls
+  266  cd ../
+  267  ls
+  268  cd simulation/simulation2
+  269  ls
+  270  ls vcf_input/
+  271  cd vcf_input/
+  272  more art_10_quanttb_filter.vcf 
+  273  more art_10_tbprof_filter.vcf 
+  274  more art_20_tbprof_filter.vcf 
+  275  more art_20_quanttb_filter.vcf 
+  276  screen -r 304461.pts-18.birds 
+  277  more art_20_quanttb_filter.vcf 
+  278  more art_20_tbprof_filter.vcf 
+  279  ls
+  280  more art_70_30_tbprof_filter.vcf 
+  281  more art_70_30_quanttb_filter.vcf 
+  282  more art_90_10_quanttb_filter.vcf 
+  283  ls
+  284  cd ../
+  285  ls
+  286  zip -r synthetic_dataset.zip vcf_input/
+  287  ls
+  288  cd ../simulation3
+  289  ls
+  290  ls artsim
+  291  cd artsim
+  292  ls
+  293  more 7strain.vcf 
+  294  more 7strain.vcf bcftools query -l 7strain | wc -l
+  295  more 7strain.vcf bcftools query -l 7strain.vcf | wc -l
+  296  ls
+  297  bcftools query -l 7strain.vcf | wc -l
+  298  source activate /data/users/CS18D017/miniconda3
+  299  bcftools query -l 7strain.vcf | wc -l
+  300  bcftools query -l 9strain.vcf | wc -l
+  301  cp 7strain.vcf ../../simulation2/vcf_input/artmix.vcf
+  302  cd ../../simulation2/vcf_input/
+  303  ls
+  304  zip -r synthetic_dataset.zip vcf_input/
+  305  ls
+  306  cd ../
+  307  zip -r synthetic_dataset.zip vcf_input/
+  308  rm synthetic_dataset.zip 
+  309  zip -r synthetic_dataset.zip vcf_input/
+  310  screen -r 304461.pts-18.birds 
+  311  source activate r_env_new
+  312  rstudio
+  313  screen -r
+  314  screen -r 73587.pts-34.birds
+  315  cd LVM_Multistrain/Preprocessing/WGS_Indian_data/
+  316  ls
+  317  cd ../DL-MTB-Pred/
+  318  ls
+  319  cd vcf_files/
+  320  ls
+  321   bcftools view -H art_10_quanttb_filter.vcf | wc -l
+  322  source activate /data/users/CS18D017/miniconda3
+  323   bcftools view -H site.20.iso.1.subject.SCH8612323.lab_id.YA00134624.seq_reps.1.masked.vcf.gz | wc -l
+  324   bcftools view -H *.gz | wc -l
+  325   bcftools view -H site.20.iso.1.subject.SCH8576461.lab_id.YA00134966.seq_reps.1.masked.vcf.gz | wc -l
+  326   bcftools view -H site.20.iso.1.subject.SCH8571236.lab_id.YA00132617.seq_reps.1.masked.vcf.gz | wc -l
+  327  source activate r_env_new
+  328  rstudio
+  329  source activate r_env_new
+  330  rstudio
+  331  cd /data/users/CS18D017/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem
+  332  ls
+  333  cp Fig_2.R Multi-omic-TB-COVID/
+  334  cdLVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs
+  335  cd LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs
+  336  ls
+  337  zcat SM009_R2.fastq.gz | more
+  338  zcat SM010_R2.fastq.gz | more
+  339  zcat SM011_R2.fastq.gz | more
+  340  zcat SM021_R2.fastq.gz | more
+  341  zcat SM022_R2.fastq.gz | more
+  342  zcat SM012_R2.fastq.gz | more
+  343  zcat SM013_R2.fastq.gz | more
+  344  zcat SM001_R2.fastq.gz | more
+  345  zcat SM002_R2.fastq.gz | more
+  346  zcat SM003_R2.fastq.gz | more
+  347  zcat SM004_R2.fastq.gz | more
+  348  zcat SM004_R1.fastq.gz | more
+  349  zcat SM005_R1.fastq.gz | more
+  350  zcat SM006_R1.fastq.gz | more
+  351  zcat SM007_R1.fastq.gz | more
+  352  zcat SM006_R1.fastq.gz | more
+  353  zcat SM008_R1.fastq.gz | more
+  354  zcat SM009_R1.fastq.gz | more
+  355  zcat SM010_R1.fastq.gz | more
+  356  zcat SM011_R1.fastq.gz | more
+  357  zcat SM012_R1.fastq.gz | more
+  358  zcat SM013_R1.fastq.gz | more
+  359  zcat SM014_R1.fastq.gz | more
+  360  zcat SM015_R1.fastq.gz | more
+  361  zcat SM016_R1.fastq.gz | more
+  362  zcat SM017_R1.fastq.gz | more
+  363  zcat SM018_R1.fastq.gz | more
+  364  zcat SM019_R1.fastq.gz | more
+  365  zcat SM020_R1.fastq.gz | more
+  366  zcat SM021_R1.fastq.gz | more
+  367  zcat SM022_R1.fastq.gz | more
+  368  zcat SM023_R1.fastq.gz | more
+  369  zcat SM024_R1.fastq.gz | more
+  370  zcat SM025_R1.fastq.gz | more
+  371  zcat SM024_R1.fastq.gz | more
+  372  zcat SM025_R1.fastq.gz | more
+  373  zcat SM026_R1.fastq.gz | more
+  374  zcat SM027_R1.fastq.gz | more
+  375  zcat SM028_R1.fastq.gz | more
+  376  zcat SM029_R1.fastq.gz | more
+  377  zcat SM030_R1.fastq.gz | more
+  378  zcat SM031_R1.fastq.gz | more
+  379  zcat SM032_R1.fastq.gz | more
+  380  zcat SM033_R1.fastq.gz | more
+  381  zcat SM034_R1.fastq.gz | more
+  382  zcat SM035_R1.fastq.gz | more
+  383  zcat SM036_R1.fastq.gz | more
+  384  zcat SM037_R1.fastq.gz | more
+  385  zcat SM038_R1.fastq.gz | more
+  386  zcat SM039_R1.fastq.gz | more
+  387  zcat SM040_R1.fastq.gz | more
+  388  zcat SM041_R1.fastq.gz | more
+  389  zcat SM042_R1.fastq.gz | more
+  390  zcat SM043_R1.fastq.gz | more
+  391  zcat SM044_R1.fastq.gz | more
+  392  zcat SM045_R1.fastq.gz | more
+  393  zcat SM046_R1.fastq.gz | more
+  394  zcat SM047_R1.fastq.gz | more
+  395  zcat SM048_R1.fastq.gz | more
+  396  zcat SM049_R1.fastq.gz | more
+  397  zcat SM050_R1.fastq.gz | more
+  398  zcat SM048_R1.fastq.gz | more
+  399  zcat SM049_R1.fastq.gz | more
+  400  zcat SM050_R1.fastq.gz | more
+  401  zcat SM051_R1.fastq.gz | more
+  402  zcat SM052_R1.fastq.gz | more
+  403  zcat SM053_R1.fastq.gz | more
+  404  zcat SM054_R1.fastq.gz | more
+  405  zcat SM055_R1.fastq.gz | more
+  406  zcat SM056_R1.fastq.gz | more
+  407  zcat SM057_R1.fastq.gz | more
+  408  zcat SM058_R1.fastq.gz | more
+  409  zcat SM059_R1.fastq.gz | more
+  410  zcat SM060_R1.fastq.gz | more
+  411  zcat SM061_R1.fastq.gz | more
+  412  zcat SM062_R1.fastq.gz | more
+  413  zcat SM063_R1.fastq.gz | more
+  414  zcat SM064_R1.fastq.gz | more
+  415  zcat SM065_R1.fastq.gz | more
+  416  zcat SM066_R1.fastq.gz | more
+  417  zcat SM067_R1.fastq.gz | more
+  418  zcat SM068_R1.fastq.gz | more
+  419  zcat SM069_R1.fastq.gz | more
+  420  zcat SM070_R1.fastq.gz | more
+  421  zcat SM071_R1.fastq.gz | more
+  422  zcat SM072_R1.fastq.gz | more
+  423  zcat SM073_R1.fastq.gz | more
+  424  zcat SM074_R1.fastq.gz | more
+  425  zcat SM075_R1.fastq.gz | more
+  426  zcat SM076_R1.fastq.gz | more
+  427  zcat SM077_R1.fastq.gz | more
+  428  zcat SM078_R1.fastq.gz | more
+  429  zcat SM079_R1.fastq.gz | more
+  430  zcat SM080_R1.fastq.gz | more
+  431  zcat SM081_R1.fastq.gz | more
+  432  zcat SM082_R1.fastq.gz | more
+  433  zcat SM083_R1.fastq.gz | more
+  434  zcat SM084_R1.fastq.gz | more
+  435  zcat SM085_R1.fastq.gz | more
+  436  zcat SM086_R1.fastq.gz | more
+  437  zcat SM087_R1.fastq.gz | more
+  438  zcat SM088_R1.fastq.gz | more
+  439  zcat SM089_R1.fastq.gz | more
+  440  zcat SM090_R1.fastq.gz | more
+  441  zcat SM091_R1.fastq.gz | more
+  442  zcat SM092_R1.fastq.gz | more
+  443  zcat SM093_R1.fastq.gz | more
+  444  zcat SM094_R1.fastq.gz | more
+  445  zcat SM001_R1.fastq.gz | more
+  446  zcat SM002_R1.fastq.gz | more
+  447  zcat SM003_R1.fastq.gz | more
+  448  zcat SM004_R1.fastq.gz | more
+  449  zcat SM005_R1.fastq.gz | more
+  450  zcat SM006_R1.fastq.gz | more
+  451  zcat SM007_R1.fastq.gz | more
+  452  zcat SM008_R1.fastq.gz | more
+  453  zcat SM009_R1.fastq.gz | more
+  454  zcat SM010_R1.fastq.gz | more
+  455  zcat SM011_R1.fastq.gz | more
+  456  zcat SM012_R1.fastq.gz | more
+  457  zcat SM013_R1.fastq.gz | more
+  458  zcat SM014_R1.fastq.gz | more
+  459  zcat SM015_R1.fastq.gz | more
+  460  zcat SM016_R1.fastq.gz | more
+  461  zcat SM017_R1.fastq.gz | more
+  462  zcat SM018_R1.fastq.gz | more
+  463  zcat SM019_R1.fastq.gz | more
+  464  zcat SM020_R1.fastq.gz | more
+  465  zcat SM021_R1.fastq.gz | more
+  466  zcat SM022_R1.fastq.gz | more
+  467  zcat SM023_R1.fastq.gz | more
+  468  zcat SM024_R1.fastq.gz | more
+  469  zcat SM025_R1.fastq.gz | more
+  470  zcat SM026_R1.fastq.gz | more
+  471  zcat SM027_R1.fastq.gz | more
+  472  zcat SM028_R1.fastq.gz | more
+  473  zcat SM028\9_R1.fastq.gz | more
+  474  zcat SM029_R1.fastq.gz | more
+  475  zcat SM030_R1.fastq.gz | more
+  476  zcat SM031_R1.fastq.gz | more
+  477  zcat SM032_R1.fastq.gz | more
+  478  zcat SM033_R1.fastq.gz | more
+  479  zcat SM034_R1.fastq.gz | more
+  480  zcat SM035_R1.fastq.gz | more
+  481  zcat SM036_R1.fastq.gz | more
+  482  zcat SM037_R1.fastq.gz | more
+  483  zcat SM038_R1.fastq.gz | more
+  484  zcat SM039_R1.fastq.gz | more
+  485  zcat SM040_R1.fastq.gz | more
+  486  zcat SM041_R1.fastq.gz | more
+  487  zcat SM042_R1.fastq.gz | more
+  488  zcat SM043_R1.fastq.gz | more
+  489  zcat SM044_R1.fastq.gz | more
+  490  zcat SM045_R1.fastq.gz | more
+  491  zcat SM046_R1.fastq.gz | more
+  492  zcat SM047_R1.fastq.gz | more
+  493  zcat SM048_R1.fastq.gz | more
+  494  zcat SM049_R1.fastq.gz | more
+  495  zcat SM050_R1.fastq.gz | more
+  496  zcat SM051_R1.fastq.gz | more
+  497  zcat SM052_R1.fastq.gz | more
+  498  zcat SM053_R1.fastq.gz | more
+  499  zcat SM054_R1.fastq.gz | more
+  500  zcat SM055_R1.fastq.gz | more
+  501  zcat SM056_R1.fastq.gz | more
+  502  zcat SM057_R1.fastq.gz | more
+  503  zcat SM058_R1.fastq.gz | more
+  504  zcat SM059_R1.fastq.gz | more
+  505  zcat SM060_R1.fastq.gz | more
+  506  zcat SM061_R1.fastq.gz | more
+  507  zcat SM062_R1.fastq.gz | more
+  508  zcat SM063_R1.fastq.gz | more
+  509  zcat SM064_R1.fastq.gz | more
+  510  zcat SM065_R1.fastq.gz | more
+  511  zcat SM066_R1.fastq.gz | more
+  512  zcat SM067_R1.fastq.gz | more
+  513  zcat SM068_R1.fastq.gz | more
+  514  zcat SM069_R1.fastq.gz | more
+  515  zcat SM070_R1.fastq.gz | more
+  516  zcat SM071_R1.fastq.gz | more
+  517  zcat SM072_R1.fastq.gz | more
+  518  zcat SM073_R1.fastq.gz | more
+  519  zcat SM074_R1.fastq.gz | more
+  520  zcat SM075_R1.fastq.gz | more
+  521  zcat SM076_R1.fastq.gz | more
+  522  zcat SM077_R1.fastq.gz | more
+  523  zcat SM078_R1.fastq.gz | more
+  524  zcat SM079_R1.fastq.gz | more
+  525  zcat SM080_R1.fastq.gz | more
+  526  zcat SM081_R1.fastq.gz | more
+  527  zcat SM082_R1.fastq.gz | more
+  528  zcat SM083_R1.fastq.gz | more
+  529  zcat SM084_R1.fastq.gz | more
+  530  zcat SM085_R1.fastq.gz | more
+  531  zcat SM086_R1.fastq.gz | more
+  532  zcat SM087_R1.fastq.gz | more
+  533  zcat SM088_R1.fastq.gz | more
+  534  zcat SM089_R1.fastq.gz | more
+  535  zcat SM090_R1.fastq.gz | more
+  536  zcat SM091_R1.fastq.gz | more
+  537  zcat SM092_R1.fastq.gz | more
+  538  zcat SM093_R1.fastq.gz | more
+  539  ls
+  540  mkdir NCBI_uploa
+  541  mv NCBI_uploa/ NCBI_upload
+  542  cp *.R*.fastq.gz NCBI_upload/
+  543  cp *.R[1-2].fastq.gz NCBI_upload/
+  544  pwd
+  545  cp *_R[1-2].fastq.gz NCBI_upload/
+  546  ls NCBI_upload/
+  547  cd NCBI_upload/
+  548  ls
+  549  rm SM058_R*
+  550  ls | wc -l
+  551  cd ../tar -cvf archive_name.tar folder_name/
+  552  pwd
+  553  cd ../
+  554  tar -cvf archive_name.tar folder_name/
+  555  tar -cvf NCBI_sputum.tar NCBI_upload/
+  556  ftp ftp-private.ncbi.nlm.nih.gov
+  557  ls
+  558  cd NCBI_upload/
+  559  ftp ftp-private.ncbi.nlm.nih.gov
+  560  ls
+  561  ftp ftp-private.ncbi.nlm.nih.gov
+  562  pwd
+  563  cd ../../
+  564  cd WGS_data/
+  565  ls
+  566  mkdir NCBI_WGS_upload
+  567  cp *_R*.gz NCBI_WGS_upload/
+  568  ls
+  569  cd NCBI_WGS_upload/
+  570  ls
+  571  mv SK1476_R1.fastq.gz SM047_R1.fastq.gz
+  572  mv SK1476_R2.fastq.gz SM047_R2.fastq.gz
+  573  mv SK1478_R1.fastq.gz SM037_R1.fastq.gz
+  574  mv SK1478_R2.fastq.gz SM037_R2.fastq.gz
+  575  mv SK1479_R1.fastq.gz SM048_R1.fastq.gz
+  576  mv SK1479_R2.fastq.gz SM048_R2.fastq.gz
+  577  mv SK1480_R1.fastq.gz SM030_R1.fastq.gz
+  578  mv SK1480_R2.fastq.gz SM030_R2.fastq.gz
+  579  mv SK1488_R1.fastq.gz SM003_R1.fastq.gz
+  580  mv SK1488_R2.fastq.gz SM003_R2.fastq.gz
+  581  mv SK1489_R1.fastq.gz SM046_R1.fastq.gz
+  582  mv SK1489_R2.fastq.gz SM046_R2.fastq.gz
+  583  mv SK1492_R1.fastq.gz SM035_R1.fastq.gz
+  584  mv SK1492_R2.fastq.gz SM035_R2.fastq.gz
+  585  mv SK1493_R1.fastq.gz SM040_R1.fastq.gz
+  586  mv SK1493_R2.fastq.gz SM040_R2.fastq.gz
+  587  mv SK1494_R1.fastq.gz SM027_R1.fastq.gz
+  588  mv SK1494_R2.fastq.gz SM027_R2.fastq.gz
+  589  mv SK1496_R1.fastq.gz SM049_R1.fastq.gz
+  590  mv SK1496_R2.fastq.gz SM049_R2.fastq.gz
+  591  mv SK1501_R1.fastq.gz SM009_R1.fastq.gz
+  592  mv SK1501_R2.fastq.gz SM009_R2.fastq.gz
+  593  mv SK1505_R1.fastq.gz SM051_R1.fastq.gz
+  594  mv SK1505_R2.fastq.gz SM051_R2.fastq.gz
+  595  mv SK1506_R1.fastq.gz SM057_R1.fastq.gz
+  596  mv SK1506_R2.fastq.gz SM057_R2.fastq.gz
+  597  mv SK1508_R1.fastq.gz SM064_R1.fastq.gz
+  598  mv SK1508_R2.fastq.gz SM064_R2.fastq.gz
+  599  mv SK1509_R1.fastq.gz SM053_R1.fastq.gz
+  600  mv SK1509_R2.fastq.gz SM053_R2.fastq.gz
+  601  mv SK1511_R1.fastq.gz SM032_R1.fastq.gz
+  602  mv SK1511_R2.fastq.gz SM032_R2.fastq.gz
+  603  mv SK1512_R2.fastq.gz SM063_R2.fastq.gz
+  604  mv SK1512_R1.fastq.gz SM063_R1.fastq.gz
+  605  mv SK1518_R1.fastq.gz SM069_R1.fastq.gz
+  606  mv SK1518_R2.fastq.gz SM069_R2.fastq.gz
+  607  mv SK1520_R1.fastq.gz SM054_R1.fastq.gz
+  608  mv SK1520_R2.fastq.gz SM054_R2.fastq.gz
+  609  mv SK1521_R1.fastq.gz SM055_R1.fastq.gz
+  610  mv SK1521_R2.fastq.gz SM055_R2.fastq.gz
+  611  ls
+  612  rm rm SK1515_R1.fastq.gz 
+  613  rm SK1515_R1.fastq.gz 
+  614  ls
+  615  rm SK1515_R2.fastq.gz 
+  616  ls
+  617  cd /LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed_final_results/paired/cutadapt_2
+  618  cd LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/Multi-omic-TB-COVID/
+  619  cp ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed_final_results/paired/cutadapt_2/merged_homd_tax.txt data/
+  620  cp ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed_final_results/paired/cutadapt_2/merged_feature_table.tsv data/
+  621  ls data/
+  622  cp ../../../paired/metadata_R.csv data/metadata_R.csv
+  623  pwd
+  624  cp -r ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed_final_results/paired/cutadapt_2/batch1 .
+  625  cp -r ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed_final_results/paired/cutadapt_2/batch2 .
+  626  cp -r ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed_final_results/paired/cutadapt_2/batch3 .
+  627  cp -r ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed_final_results/paired/cutadapt_2/batch4 .
+  628  cp -r ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed_final_results/paired/cutadapt_2/batch5 .
+  629  source activate r_env_new
+  630  rstudio
+  631  screen -r
+  632  screen -r 111916.pts-18.birds  
+  633  pwd
+  634  screen -r 111916.pts-18.birds  
+  635  screen -r
+  636  screen -r  215689.pts-161.birds 
+  637  screen -r
+  638  screen -r 304461.pts-18.birds    
+  639  screen -r
+  640  screen -r 216191.pts-18.birds 
+  641  screen -r
+  642  screen -r 216191.pts-18.birds 
+  643  screen -r
+  644  screen -r 215689.pts-161.birds   
+  645  screen -r
+  646  screen -r 
+  647  screen -R CRyPTIC_DL
+  648  screen -r
+  649  screen -r 112548.Picrust_analysis
+  650  source activate /data/users/CS18D017/miniconda3
+  651  conda info --envs
+  652  conda activate /data/users/CS18D017/new_anaconda/envs/qiime2-2022.11
+  653  ls
+  654  source activate /data/users/CS18D017/miniconda3
+  655  conda activate /data/users/CS18D017/new_anaconda/envs/qiime2-2022.11
+  656  cd LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/Multi-omic-TB-COVID/
+  657  ls
+  658  cd batch1
+  659  qiime tools import --input-path rep-seqs_mFP_default.fna --type 'FeatureData[Sequence]' --output-path rep-seqs.qza
+  660  echo -n "#OTU Table" | cat - seqtab-nochim_mFP_default.txt > biom-table.txt 
+  661  biom convert   -i biom-table.txt   -o biom-table.biom   --to-hdf5   
+  662  qiime tools import   --input-path biom-table.biom   --output-path feature_table_frequency.qza   --type 'FeatureTable[Frequency]' 
+  663   qiime feature-classifier classify-sklearn   --i-classifier ../HOMD_new_database/HOMD/picrust_database_new/classifier.qza --i-reads rep-seqs.qza --o-classification V3V4_taxonomy.qza --p-confidence 0.97
+  664   qiime feature-classifier classify-sklearn   --i-classifier ../../HOMD_new_database/HOMD/picrust_database_new/classifier.qza --i-reads rep-seqs.qza --o-classification V3V4_taxonomy.qza --p-confidence 0.97
+  665  pwd
+  666   qiime feature-classifier classify-sklearn   --i-classifier ../../all_batch/HOMD_new_database/HOMD/picrust_database_new/classifier.qza --i-reads rep-seqs.qza --o-classification V3V4_taxonomy.qza --p-confidence 0.97
+  667  qiime taxa collapse --i-table feature_table_frequency.qza  --i-taxonomy V3V4_taxonomy.qza --p-level 7 --output-dir batch5output_V3V4
+  668  qiime taxa collapse --i-table feature_table_frequency.qza  --i-taxonomy V3V4_taxonomy.qza --p-level 7 --output-dir batchoutput_V3V4
+  669  cd batchoutput_V3V4/
+  670  qiime tools export --input-path collapsed_table.qza --output-path extracteddata
+  671  cd ../
+  672  qiime tools export --input-path V3V4_taxonomy.qza --output-path export_taxa/
+  673  biom convert -i extracteddata/feature-table.biom -o feature_table.tsv --to-tsv
+  674  cd batchoutput_V3V4/
+  675  ls
+  676  biom convert -i extracteddata/feature-table.biom -o feature_table.tsv --to-tsv
+  677  ls
+  678  cd ../
+  679  pwd
+  680  cd ../
+  681  cd batch2
+  682  qiime tools import --input-path rep-seqs_mFP_default.fna --type 'FeatureData[Sequence]' --output-path rep-seqs.qza
+  683   echo -n "#OTU Table" | cat - seqtab-nochim_mFP_default.txt > biom-table.txt 
+  684  biom convert   -i biom-table.txt   -o biom-table.biom   --to-hdf5   
+  685   qiime tools import   --input-path biom-table.biom   --output-path feature_table_frequency.qza   --type 'FeatureTable[Frequency]' 
+  686  qiime feature-classifier classify-sklearn   --i-classifier ../../all_batch/HOMD_new_database/HOMD/picrust_database_new/classifier.qza --i-reads rep-seqs.qza --o-classification V3V4_taxonomy.qza --p-confidence 0.97
+  687  qiime taxa collapse --i-table feature_table_frequency.qza  --i-taxonomy V3V4_taxonomy.qza --p-level 7 --output-dir batchoutput_V3V4
+  688  cd batchoutput_V3V4/
+  689  qiime tools export --input-path collapsed_table.qza --output-path extracteddata
+  690  cd ../
+  691  cd ../batch3
+  692  qiime tools import --input-path rep-seqs_mFP_default.fna --type 'FeatureData[Sequence]' --output-path rep-seqs.qza
+  693   echo -n "#OTU Table" | cat - seqtab-nochim_mFP_default.txt > biom-table.txt 
+  694  biom convert   -i biom-table.txt   -o biom-table.biom   --to-hdf5   
+  695   qiime tools import   --input-path biom-table.biom   --output-path feature_table_frequency.qza   --type 'FeatureTable[Frequency]' 
+  696  qiime feature-classifier classify-sklearn   --i-classifier ../../all_batch/HOMD_new_database/HOMD/picrust_database_new/classifier.qza --i-reads rep-seqs.qza --o-classification V3V4_taxonomy.qza --p-confidence 0.97
+  697  qiime taxa collapse --i-table feature_table_frequency.qza  --i-taxonomy V3V4_taxonomy.qza --p-level 7 --output-dir batchoutput_V3V4
+  698  cd batchoutput_V3V4/
+  699  qiime tools export --input-path collapsed_table.qza --output-path extracteddata
+  700  cd ../
+  701  cd ../batch2
+  702  qiime tools import --input-path rep-seqs_mFP_default.fna --type 'FeatureData[Sequence]' --output-path rep-seqs.qza
+  703   echo -n "#OTU Table" | cat - seqtab-nochim_mFP_default.txt > biom-table.txt 
+  704  biom convert   -i biom-table.txt   -o biom-table.biom   --to-hdf5   
+  705   qiime tools import   --input-path biom-table.biom   --output-path feature_table_frequency.qza   --type 'FeatureTable[Frequency]' 
+  706  qiime feature-classifier classify-sklearn   --i-classifier ../../all_batch/HOMD_new_database/HOMD/picrust_database_new/classifier.qza --i-reads rep-seqs.qza --o-classification V3V4_taxonomy.qza --p-confidence 0.97
+  707  qiime taxa collapse --i-table feature_table_frequency.qza  --i-taxonomy V3V4_taxonomy.qza --p-level 7 --output-dir batchoutput_V3V4
+  708  cd batchoutput_V3V4/
+  709  qiime tools export --input-path collapsed_table.qza --output-path extracteddata
+  710  cd ../
+  711  cd ../batch4
+  712  qiime tools import --input-path rep-seqs_mFP_default.fna --type 'FeatureData[Sequence]' --output-path rep-seqs.qza
+  713   echo -n "#OTU Table" | cat - seqtab-nochim_mFP_default.txt > biom-table.txt 
+  714  biom convert   -i biom-table.txt   -o biom-table.biom   --to-hdf5   
+  715   qiime tools import   --input-path biom-table.biom   --output-path feature_table_frequency.qza   --type 'FeatureTable[Frequency]' 
+  716  qiime feature-classifier classify-sklearn   --i-classifier ../../all_batch/HOMD_new_database/HOMD/picrust_database_new/classifier.qza --i-reads rep-seqs.qza --o-classification V3V4_taxonomy.qza --p-confidence 0.97
+  717  qiime taxa collapse --i-table feature_table_frequency.qza  --i-taxonomy V3V4_taxonomy.qza --p-level 7 --output-dir batchoutput_V3V4
+  718  cd batchoutput_V3V4/
+  719  qiime tools export --input-path collapsed_table.qza --output-path extracteddata
+  720  cd ../
+  721  cd ../batch5
+  722  qiime tools import --input-path rep-seqs_mFP_default.fna --type 'FeatureData[Sequence]' --output-path rep-seqs.qza
+  723   echo -n "#OTU Table" | cat - seqtab-nochim_mFP_default.txt > biom-table.txt 
+  724  biom convert   -i biom-table.txt   -o biom-table.biom   --to-hdf5   
+  725   qiime tools import   --input-path biom-table.biom   --output-path feature_table_frequency.qza   --type 'FeatureTable[Frequency]' 
+  726  qiime feature-classifier classify-sklearn   --i-classifier ../../all_batch/HOMD_new_database/HOMD/picrust_database_new/classifier.qza --i-reads rep-seqs.qza --o-classification V3V4_taxonomy.qza --p-confidence 0.97
+  727  qiime taxa collapse --i-table feature_table_frequency.qza  --i-taxonomy V3V4_taxonomy.qza --p-level 7 --output-dir batchoutput_V3V4
+  728  cd batchoutput_V3V4/
+  729  qiime tools export --input-path collapsed_table.qza --output-path extracteddata
+  730  cd ../
+  731  qiime feature-table merge --i-tables batch1/batchoutput_V3V4/collapsed_table.qza --i-tables batch2/batchoutput_V3V4/collapsed_table.qza --i-tables batch3/batchoutput_V3V4/collapsed_table.qza --i-tables batch4/batchoutput_V3V4/collapsed_table.qza --i-tables batch5/batchoutput_V3V4/collapsed_table.qza --o-merged-table merged-table.qza
+  732   qiime tools extract   --input-path merged-table.qza --output-path merged_output
+  733   biom convert   -i merged_output/3d310af5-5e73-4400-b4da-fbefb0c4b773/data/feature-table.biom o merged_feature_table.tsv --to-tsv
+  734   biom convert   -i merged_output/3d310af5-5e73-4400-b4da-fbefb0c4b773/data/feature-table.biom -o merged_feature_table.tsv --to-tsv
+  735  biom convert   -i merged_output/3d310af5-5e73-4400-b4da-fbefb0c4b773/data/feature-table.biom -o data/merged_feature_table.tsv --to-tsv
+  736  cut -f 1 merged_feature_table.tsv 
+  737  cut -f 1 merged_feature_table.tsv | awk -F 's__' '{print $2}' 
+  738  grep ";s__" merged_feature_table.tsv
+  739  grep ";s__" merged_feature_table.tsv | cut -f 1 | awk -F 's__' '{print $2}'
+  740  grep ";s__" merged_feature_table.tsv |
+  741  grep ";s__" merged_feature_table.tsv 
+  742  grep ";s__" merged_feature_table.tsv | cut -f 1
+  743  grep ";s__" merged_feature_table.tsv | cut -f 1 | cut -d ";" -f 6,7
+  744  grep ";s__" merged_feature_table.tsv | cut -f 1 | cut -d ";" -f 6,7 > merged_homd_tax.txt
+  745  grep ";s__" merged_feature_table.tsv | cut -f 1 | cut -d ";" -f 6,7 | sed 's/g__//g' | sed 's/;s__/ /g' > merged_homd_tax.txt
+  746  more merged_homd_tax.txt 
+  747  grep ";s__" merged_feature_table.tsv | cut -f 1 | cut -d ";" -f 6,7 | sed 's/g__//g' | sed 's/;s__/ /g'| sed '1s/^/species\n/' > merged_homd_tax.txt
+  748  more merged_homd_tax.txt 
+  749  grep ";s__" merged_feature_table.tsv | cut -f 1 | cut -d ";" -f 6,7 | sed 's/g__//g' | sed 's/;s__/ /g'| sed '1s/^/species\n/' > data/merged_homd_tax.txt
+  750  screen -r
+  751  screen -r 112548.Picrust_analysis
+  752  source activate r_env_new
+  753  rstudio
+  754  screen -r 112548.Picrust_analysis
+  755  screen -r -d 112548.Picrust_analysis
+  756  ls
+  757  more a.txt 
+  758  ls
+  759  pwd
+  760  screen -r  215689.pts-161.birds 
+  761  history
+  762  source activate /data/users/CS18D017/.conda/envs/picrust2
+  763  pathway_pipeline.py
+  764  pathway_pipeline.py -i EC_metagenome_out/pred_metagenome_unstrat.tsv.gz -o pathways_out --intermediate minpath_working -p 100 --per_sequence_contrib --per_sequence_abun EC_m
+  765  pwd
+  766  cd LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database/
+  767  cd ../picrust_database_new/
+  768  ls
+  769  pathway_pipeline.py -i EC_metagenome_out/pred_metagenome_unstrat.tsv.gz -o pathways_out --intermediate minpath_working -p 100 --per_sequence_contrib --per_sequence_abun EC_metagenome_out/seqtab_norm.tsv.gz --per_sequence_function EC_predicted.tsv.gz
+  770  add_descriptions.py -i pathways_out/path_abun_unstrat.tsv.gz -m METACYC                     -o pathways_out/path_abun_unstrat_descrip.tsv.gz
+  771  cd pathways_out/
+  772  gunzip path_abun_unstrat_descrip.tsv.gz
+  773  gunzip path_abun_contrib.tsv.gz
+  774  grep "PWY-6397" path_abun_contrib.tsv
+  775  grep "PWY-6397" path_abun_contrib.tsv > aa.txt
+  776  qiime tools import   --type 'FeatureData[Sequence]'   --input-path HOMD_final_trimmed_v1.fasta
+  777  /data/users/CS18D017/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/raxml/raxml-ng --parse --model GTR+G --msa HOMD_final_align.fasta --prefix result --threads 8
+  778  /data/users/CS18D017/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/raxml/raxml-ng --parse --model GTR+G --msa homd --prefix result --threads 8
+  779  pwd
+  780  cd ../
+  781  /data/users/CS18D017/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/raxml/raxml-ng --parse --model GTR+G --msa homd-ref-trimed/homd-ref-trimed.fna --prefix result_trimed --threads 8
+  782  /data/users/CS18D017/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/raxml/raxml-ng --model GTR+G --msa homd-ref-trimed/homd-ref-trimed.fna --prefix result_trimed --threads 8
+  783  grep "SEQF" result_trimed.raxml.reduced.phy 
+  784  grep "SEQF" result_trimed.raxml.reduced.phy | wc -l
+  785  grep "SEQF" result_trimed.raxml.reduced.phy | cut -d -f 1
+  786  grep "SEQF" result_trimed.raxml.reduced.phy | cut -f 1
+  787  grep "SEQF" result_trimed.raxml.reduced.phy | cut -d " " -f 1
+  788  grep "SEQF" result_trimed.raxml.reduced.phy | cut -d " " -f 1 > trimed_ids.txt
+  789  mv result_trimed.raxml.bestTree homd-ref-trimed/homd-ref-trimed.tre
+  790  mv result_trimed.raxml.bestModel homd-ref-trimed/homd-ref-trimed.model
+  791  more homd-ref-trimed/homd-ref-trimed.fna 
+  792  seqtk subseq homd-ref-trimed/homd-ref-trimed.fna trimed_ids.txt > homd-ref-trimed.fna
+  793  mv homd-ref-trimed/homd-ref-trimed.fna homd-ref-trimed/homd-ref-trimed_orig.fna
+  794  mv homd-ref-trimed.fna homd-ref-trimed
+  795  more homd-ref-trimed/homd-ref-trimed.fna 
+  796  grep "SEQF"  homd-ref-trimed/homd-ref-trimed.fna | wc -l
+  797  bgzip homd-ref-trimed/homd-ref-trimed.fna
+  798  place_seqs.py -s query_header_only_genus_species.fasta --ref_dir homd-ref-trimed -o placed_seqs.tre -p 80 --intermediate placement_working_trimed
+  799  cd homd-ref-trimed/
+  800  ls
+  801  gunzip homd-ref-trimed.fna.gz 
+  802  hmmbuild homd-ref.hmm homd-ref-trimed.fna
+  803  ls
+  804  bgzip homd-ref-trimed.fna 
+  805  cd ../
+  806  hmmbuild homd-ref.hmm homd-ref-trimed.fna
+  807  place_seqs.py -s query_header_only_genus_species.fasta --ref_dir homd-ref-trimed -o placed_seqs.tre -p 80 --intermediate placement_working_trimed
+  808  cd homd-ref-trimed/
+  809  ls
+  810  mv homd-ref.hmm homd-ref-trimed.hmm
+  811  cd ../
+  812  place_seqs.py -s query_header_only_genus_species.fasta --ref_dir homd-ref-trimed -o placed_seqs.tre -p 80 --intermediate placement_working_trimed
+  813  cd homd-ref-trimed/
+  814  mv homd-ref.hmm homd-ref-trimed.hmm
+  815  hmmbuild homd-ref-trimed.hmm homd-ref-trimed.fna
+  816  bgzip homd-ref-trimed.fna 
+  817  cd ../
+  818  place_seqs.py -s query_header_only_genus_species.fasta --ref_dir homd-ref-trimed -o placed_seqs.tre -p 80 --intermediate placement_working_trimed
+  819  grep ">" placement_working_trimed/study_seqs_hmmalign.fasta 
+  820  grep ">" placement_working_trimed/study_seqs_hmmalign.fasta | wc -l
+  821  hsp.py -t placed_seqs.tre 
+  822  hsp.py -i HOMD_final_16S_count.tsv -t placed_seqs.tre -o marker_nsti_predicted.tsv.gz -p 80 -n
+  823  hsp.py --observed_trait_table HOMD_final_16S_count.tsv -t placed_seqs.tre -o marker_nsti_predicted.tsv.gz -p 80 -n
+  824  hsp.py --observed_trait_table HOMD_EC_counts_final.txt -t placed_seqs.tre -o EC_predicted.tsv.gz -p 80 -
+  825  hsp.py --observed_trait_table HOMD_EC_counts_final.txt -t placed_seqs.tre -o EC_predicted.tsv.gz -p 80 
+  826  metagenome_pipeline.py -i TB_COVID_featutetable.biom -m ma
+  827  metagenome_pipeline.py -i TB_COVID_featutetable.biom -m marker_nsti_predicted.tsv.gz -f EC_predicted.tsv.gz 
+  828  metagenome_pipeline.py -i TB_COVID_featutetable.biom -m marker_nsti_predicted.tsv.gz -f EC_predicted.tsv.gz -o EC_metagenome_out_trimed --strat_out
+  829  pathway_pipeline.py -i EC_metagenome_out_trimed/pred_metagenome_unstrat.tsv.gz -o pathways_out_trimed --intermediate minpath_working -p 100 --per_sequence_contrib --per_sequence_abun EC_metagenome_out_trimed/seqtab_norm.tsv.gz --per_sequence_function EC_predicted.tsv.gz 
+  830  cd EC_metagenome_out_trimed/
+  831  gunzip .*
+  832  ls
+  833  gunzip *
+  834  cd ../pathways_out_trimed/
+  835  ls
+  836  gunzip *
+  837  la
+  838  ls
+  839  grep "PWY-6397" path_abun_contrib.tsv > aa.txt
+  840  grep "mycolate biosynthesis" path_abun_contrib.tsv > aa.txt
+  841  grep "PWYG-321" path_abun_contrib.tsv > aa.txt
+  842  metagenome_pipeline.py -i TB_COVID_featutetable.biom -m marker_nsti_predicted.tsv.gz -f EC_predicted.tsv.gz -o EC_metagenome_out_trimed_min_thres --strat_out min_reads 10 min_samples 5
+  843  metagenome_pipeline.py -i TB_COVID_featutetable.biom -m marker_nsti_predicted.tsv.gz -f EC_predicted.tsv.gz -o EC_metagenome_out_trimed_min_thres --strat_out --min_reads 10 --min_samples 3
+  844  cd ../
+  845  metagenome_pipeline.py -i TB_COVID_featutetable.biom -m marker_nsti_predicted.tsv.gz -f EC_predicted.tsv.gz -o EC_metagenome_out_trimed_min_thres --strat_out --min_reads 10 --min_samples 3
+  846  metagenome_pipeline.py -i TB_COVID_featutetable.biom -m marker_nsti_predicted.tsv.gz -f EC_predicted.tsv.gz -o EC_metagenome_out_trimed_min_thres --strat_out --min_reads 10 --min_samples 3 ; pathway_pipeline.py -i EC_metagenome_out_trimed_min_thres/pred_metagenome_unstrat.tsv.gz -o pathways_out_trimed_min_thres --intermediate minpath_working -p 100 --per_sequence_contrib --per_sequence_abun EC_metagenome_out_trimed_min_thres/seqtab_norm.tsv.gz --per_sequence_function EC_predicted.tsv.gz
+  847  cd pathways_out_trimed_min_thres/
+  848  ls
+  849  gunzip *
+  850  add_descriptions.py -i pathways_out_/path_abun_unstrat.tsv.gz -m METACYC                     -o pathways_out/path_abun_unstrat_descrip.tsv.gz
+  851  cd ../
+  852  add_descriptions.py -i pathways_out_trimed/path_abun_unstrat_per_seq.tsv -m METACYC                     -o pathways_out_trimed/path_abun_unstrat_descrip_perseq.tsv
+  853  cd pathways_out_trimed
+  854  ls
+  855  grep "PWY-6385" path_abun_contrib.tsv > aa.txt
+  856  cd ../
+  857  cd pathways_out_trimed_orig/
+  858  gunzip *
+  859  cd ../
+  860  add_descriptions.py -i pathways_out_trimed_orig/path_abun_unstrat_per_seq.tsv -m METACYC                     -o pathways_out_trimed_orig/path_abun_unstrat_descrip_perseq.tsv
+  861  grep "PWY-6387" path_abun_contrib.tsv > aa.txt
+  862  pwd
+  863  cd pathways_out_trimed_orig/
+  864  grep "PWY-6387" path_abun_contrib.tsv > aa.txt
+  865  grep "PWY-6397" path_abun_contrib.tsv > aa.txt
+  866  cd ../pathways_out_trimed
+  867  grep "PWY-6397" path_abun_contrib.tsv > aa.txt
+  868  grep "PWY-7539" path_abun_contrib.tsv > aa.txt
+  869  cd ../pathways_out_trimed_orig/
+  870  grep "PWY-7539" path_abun_contrib.tsv > aa.txt
+  871  grep "PWYG-321" path_abun_contrib.tsv > aa.txt
+  872  grep "PWY0-1319" path_abun_contrib.tsv > aa.txt
+  873  grep "PWY0-1261" path_abun_contrib.tsv > aa.txt
+  874  grep "PWY-6519" path_abun_contrib.tsv > aa.txt
+  875  grep "GALACTARDEG-PWY" path_abun_contrib.tsv > aa.txt
+  876  grep "SO4ASSIM-PWY" path_abun_contrib.tsv > aa.txt
+  877  grep "FOLSYN-PWY" path_abun_contrib.tsv > aa.txt
+  878  grep "PWY-6612" path_abun_contrib.tsv > aa.txt
+  879  grep "PWY0-1319" path_abun_contrib.tsv > aa.txt
+  880  cd ../
+  881  ls
+  882  grep ">" query_header_only_genus_species.fasta 
+  883  grep ">" query_header_only_genus_species.fasta > cut -d ">" -f 2
+  884  grep ">" query_header_only_genus_species.fasta | cut -d ">" -f 2
+  885  grep ">" query_header_only_genus_species.fasta | cut -d ">" -f 2 > Seqids.txt 
+  886  wc -l Seqids.txt 
+  887  wc -l merged_taxonomy.tsv 
+  888  wc -l feature-table_frequency.tsv 
+  889  wc -l filtered_feature_count.tsv 
+  890  wc -l feature-table_frequency.tsv 
+  891  grep "g__" merged_taxonomy.tsv 
+  892  grep "g__" merged_taxonomy.tsv  | wc -l
+  893  grep "g__" merged_taxonomy.tsv  > filtered_taxonomy.tsv
+  894  ls
+  895  pwd
+  896  grep "Bifidobacterium shunt" pathways_out_trimed_orig/path_abun_unstrat_per_seq.tsv 
+  897  grep "Bifidobacterium shunt" pathways_out_trimed_orig/path_abun_unstrat_descrip_perseq.tsv
+  898  grep "Bifidobacterium shunt" pathways_out_trimed_orig/path_abun_unstrat_descrip_perseq.tsv | cut -f 1
+  899  grep "P124-PWY" pathways_out_trimed_orig/path_abun_contrib.tsv 
+  900  grep "P124-PWY" pathways_out_trimed_orig/path_abun_contrib.tsv > aa.txt
+  901  more TBTBCOVIDids.csv 
+  902  grep -F -f  TBTBCOVIDids.csv aa.txt 
+  903  wc -l aa.txt 
+  904  grep -F -f  TBTBCOVIDids.csv aa.txt | wc -l
+  905  grep -F -f  TBTBCOVIDids.csv aa.txt | cut -f 3
+  906  grep -F -f  TBTBCOVIDids.csv aa.txt | cut -f 3 |sort
+  907  grep -F -f  TBTBCOVIDids.csv aa.txt | cut -f 3 | sort | uniq -c
+  908  grep -F -f  TBTBCOVIDids.csv aa.txt | cut -f 3 | sort 
+  909  grep -F -f  TBTBCOVIDids.csv aa.txt | cut -f 3 | sort > extracted_seqids.txt
+  910  grep -F -f extracted_seqids.txt 
+  911  wc -l extracted_seqids.txt 
+  912  grep -F -f extracted_seqids.txt merged_taxa_samplid.tsv
+  913  grep -F -f extracted_seqids.txt merged_taxa_samplid.tsv | wc -l
+  914  grep -Fw -f extracted_seqids.txt merged_taxa_samplid.tsv | wc -l
+  915  grep -F -f  TBTBCOVIDids.csv aa.txt | cut -f 3 | sort | uniq | wc -l
+  916  wc -l extracted_seqids.txt 
+  917  grep -Fw -f extracted_seqids.txt merged_taxa_samplid.tsv -o
+  918  grep -Fw -f extracted_seqids.txt merged_taxa_samplid.tsv -o | wc -l
+  919  grep -Fw -o -f extracted_seqids.txt merged_taxa_samplid.tsv 
+  920  while read pattern; do   grep -F "$pattern" aa.txt; done < TBTBCOVIDids.csv
+  921  while read pattern; do   grep -F "$pattern" aa.txt; done < TBTBCOVIDids.csv | wc -l
+  922  grep -Fw -o -f extracted_seqids.txt merged_taxa_samplid.tsv 
+  923  while read pattern; do   grep -F "$pattern" while read pattern; do; done < TBTBCOVIDids.csv
+  924    grep -F "$pattern" aa.txt
+  925  while read pattern; do   grep -F "$pattern" merged_taxa_samplid.tsv; done < TBTBCOVIDids.csv | wc -l
+  926  while read pattern; do   grep -F "$pattern" merged_taxa_samplid.tsv; done < extracted_seqids.txt | wc -l
+  927  while read pattern; do   grep -wF "$pattern" merged_taxa_samplid.tsv; done < extracted_seqids.txt 
+  928  while read pattern; do   grep -wF "$pattern" merged_taxa_samplid.tsv; done < extracted_seqids.txt | wc -l
+  929  while read pattern; do   grep -wF "$pattern" merged_taxa_samplid.tsv; done < extracted_seqids.txt | cut -f 3
+  930  while read pattern; do   grep -wF "$pattern" merged_taxa_samplid.tsv; done < extracted_seqids.txt | cut -f 3 | uniq -c
+  931  while read pattern; do   grep -wF "$pattern" merged_taxa_samplid.tsv; done < extracted_seqids.txt | cut -f 3 |sort |  uniq -c > P124-PWY.txt
+  932  more P124-PWY.txt 
+  933   cd Analysis_Picrust/
+  934  vim scrip.sh
+  935  chmod +x scrip.sh 
+  936  ./scrip.sh 
+  937  pwd
+  938  ./scrip.sh 
+  939  vim scrip.sh 
+  940  grep -v "g__Escherichia;s__coli" merged_
+  941  cd ../
+  942  pwd
+  943  grep -v "g__Escherichia;s__coli" merged_taxa_samplid.tsv 
+  944  grep -v "g__Escherichia;s__coli" merged_taxa_samplid.tsv > merged_remove_coli.tsv
+  945  grep -v "g__Escherichia;s__coli" merged_taxa_samplid.tsv > merged_remove_coli.tsv | cut -f 1
+  946  grep -v "g__Escherichia;s__coli" merged_taxa_samplid.tsv | cut -f 1
+  947  grep -v "g__Escherichia;s__coli" merged_taxa_samplid.tsv | cut -f 1 | wc -l
+  948  wc -l merged_taxa_samplid.tsv
+  949  grep -v "g__Escherichia;s__coli" merged_taxa_samplid.tsv | cut -f 1 > Sample_ids_coli_removed.txt
+  950  wc -l Sample_ids_coli_removed.txt
+  951  seqtk subseq query_header_only_genus_species.fasta Sample_ids_coli_removed.txt > query_header_only_genus_species_coli_removed.fasta 
+  952  wc -l filtered_feature_count.tsv 
+  953  grep -F -f Sample_ids_coli_removed.txt filtered_feature_count.tsv 
+  954  grep -F -f Sample_ids_coli_removed.txt filtered_feature_count.tsv | wc -l
+  955  wc -l S
+  956  wc -l Sample_ids_coli_removed.txt 
+  957  grep -wF -f Sample_ids_coli_removed.txt filtered_feature_count.tsv | wc -l
+  958  grep -wF -f Sample_ids_coli_removed.txt filtered_feature_count.tsv > filtered_coli_removed_count.tsv
+  959  biom convert   -i biom-table.txt   -o biom-table.biom   --to-hdf5
+  960  biom convert   -i filtered_coli_removed_count.tsv   -o TB_COVID_featuretable_coli_removed.biom   --to-hdf5
+  961  place_seqs.py -s query_header_only_genus_species_coli_removed.fasta --ref_dir homd-ref -o placed_seqs_coli_rem.tre -p 80 --intermediate placement_working_coli_rem
+  962  hsp.py --observed_trait_table HOMD_final_16S_count.tsv -t placed_seqs_coli_rem.tre -o marker_nsti_predicted_coli_rem.tsv.gz -p 80 -n
+  963  hsp.py --observed_trait_table HOMD_EC_counts_final.txt -t placed_seqs_coli_rem.tre -o EC_predicted_coli_rem.tsv.gz -p 80 
+  964  metagenome_pipeline.py -i TB_COVID_featuretable_coli_removed.biom -m marker_nsti_predicted_coli_rem.tsv.gz -f EC_predicted_coli_rem.tsv.gz -o EC_metagenome_out_coli_rem --strat_out --min_reads 10 --min_samples 3 ; pathway_pipeline.py -i EC_metagenome_out_coli_rem/pred_metagenome_unstrat.tsv.gz -o pathways_out_coli_rem --intermediate minpath_working -p 100 --per_sequence_contrib --per_sequence_abun EC_metagenome_out_coli_rem/seqtab_norm.tsv.gz --per_sequence_function EC_predicted_coli_rem.tsv.gz
+  965  cd pathways_out_coli_rem/
+  966  gunzip *
+  967  add_descriptions.py -i pathways_out_trimed_orig/path_abun_unstrat_per_seq.tsv -m METACYC                     -o pathways_out_trimed_orig/path_abun_unstrat_descrip_perseq.tsv
+  968  cd ../
+  969  add_descriptions.py -i pathways_out_coli_rem/path_abun_unstrat_per_seq.tsv -m METACYC                     -o pathways_out_coli_rem/path_abun_unstrat_descrip_perseq.tsv
+  970  add_descriptions.py -i pathways_out_coli_rem/path_abun_unstrat_per_seq_coli_rem.tsv -m METACYC                     -o pathways_out_coli_rem/path_abun_unstrat_descrip_perseq_coli_rem.tsv
+  971  pwd
+  972  cd Analysis_Picrust/
+  973  ./scrip.sh 
+  974  pwd
+  975  cd ../
+  976  pwd
+  977  cd ../
+  978  ls
+  979  grep PCA *.R
+  980  grep permanova *.R
+  981  grep Denisty *.R
+  982  grep "Batch number" *.R
+  983  cd ../
+  984  pwd
+  985  grep "Batch number" *.R
+  986  cd ../
+  987  cd paired/
+  988  grep "Batch number" *.R
+  989  pwd
+  990  grep "Bray_Curtis_species"
+  991  grep "Bray_Curtis_species" *.R
+  992  cd ../new_paired/
+  993  grep "Bray_Curtis_species" *.R
+  994  cd humanreads_rem
+  995  grep "Bray_Curtis_species" *.R
+  996  cd ../../paired/
+  997  grep "bray" *.R
+  998  cd ../../paired/
+  999  conda info --envs
+ 1000  conda activate /data/users/CS18D017/.conda/envs/picrust2
+ 1001  conda activate /data/users/CS18D017/new_anaconda/envs/qiime2-2022.11
+ 1002  cd ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/
+ 1003  cd Multi-omic-TB-COVID/
+ 1004  ls
+ 1005  qiime feature-table merge --i-tables batch1/feature_table_frequency.qza --i-tables batch2/feature_table_frequency.qza --i-tables batch3/feature_table_frequency.qza --i-tables batch4/feature_table_frequency.qza --i-tables batch5/feature_table_frequency.qza --o-merged-table merged-feature-table_nocollapse.qza
+ 1006  qiime tools export --input-path merged-feature-table_nocollapse.qza --output-path merged_nocollapse_picrust
+ 1007  biom convert -i merged_nocollapse_picrust/feature-table.biom -o merged_feature_table_nocollapse.tsv --to-tsv
+ 1008  cut -f 1 merged_feature_table_nocollapse.tsv > picrust_sequences.fasta    
+ 1009  awk -v prefix=">seq" '{ printf("%s%d\n%s\n", prefix, ++i, $0); }'  picrust_sequences.fasta > picrust_sequences_final.fasta
+ 1010  qiime tools import --input-path picrust_sequences_final.fasta --type 'FeatureData[Sequence]' --output-path rep-seqs_picrust.qza
+ 1011  more picrust_sequences.fasta 
+ 1012  more picrust_sequences_final.fasta 
+ 1013  cut -f 1 merged_feature_table_nocollapse.tsv | sed '1,2d' > picrust_sequences.fasta    
+ 1014  more picrust_sequences.fasta 
+ 1015  awk -v prefix=">seq" '{ printf("%s%d\n%s\n", prefix, ++i, $0); }'  picrust_sequences.fasta > picrust_sequences_final.fasta
+ 1016  qiime tools import --input-path picrust_sequences_final.fasta --type 'FeatureData[Sequence]' --output-path rep-seqs_picrust.qza
+ 1017  qiime feature-classifier classify-sklearn   --i-classifier ../../../trimmed/new_paired/humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database_new/classifier.qza --i-reads rep-seqs_picrust.qza --o-classification V3V4_taxonomy_picrust.qza --p-confidence 0.97
+ 1018  qiime feature-classifier classify-sklearn   --i-classifier ../../humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database_new/classifier.qza --i-reads rep-seqs_picrust.qza --o-classification V3V4_taxonomy_picrust.qza --p-confidence 0.97
+ 1019  qiime tools export --input-path V3V4_taxonomy_picrust.qza --output-path export_taxa_picrust  
+ 1020  grep "g__" export_taxa_picrust/taxonomy.tsv > export_taxa_picrust/taxonomy_picrust.tsv  
+ 1021   seqtk subseq picrust_sequences_final.fasta export_taxa_picrust/picrust_seqids.txt > export_taxa_picrust/picrust_final_sequences.fasta
+ 1022  more export_taxa_picrust/
+ 1023  ls export_taxa_picrust/
+ 1024  more export_taxa_picrust/picrust_final_sequences.fasta 
+ 1025  more export_taxa_picrust/taxonomy.tsv 
+ 1026  more export_taxa_picrust/taxonomy_picrust.tsv 
+ 1027  more ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed_final_results/paired/cutadapt_2/export_taxa_picrust/picrust_final_sequences_reverse.fasta
+ 1028  more export_taxa_picrust/taxonomy_picrust.tsv 
+ 1029  cut -f 1 export_taxa_picrust/taxonomy_picrust.tsv > export_taxa_picrust/picrust_seqids.txt
+ 1030  seqtk subseq picrust_sequences_final.fasta export_taxa_picrust/picrust_seqids.txt > export_taxa_picrust/picrust_final_sequences.fasta
+ 1031   seqtk seq -r export_taxa_picrust/picrust_final_sequences.fasta > export_taxa_picrust/picrust_final_sequences_reverse.fasta
+ 1032  place_seqs.py -s export_taxa_picrust/picrust_final_sequences.fasta -o placed_seqs_revised.tre -p 80 --intermediate placement_working_revised --ref_dir homd-v3v4/
+ 1033  conda activate /data/users/CS18D017/.conda/envs/picrust2
+ 1034  place_seqs.py -s export_taxa_picrust/picrust_final_sequences.fasta -o placed_seqs_revised.tre -p 80 --intermediate placement_working_revised --ref_dir ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database_new/homd-v3v4/
+ 1035  place_seqs.py -s export_taxa_picrust/picrust_final_sequences_reverse.fasta -o placed_seqs_reproduce.tre -p 80 --intermediate placement_working_revised --ref_dir ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database_new/homd-v3v4/
+ 1036  rm -r placement_working_revised
+ 1037  place_seqs.py -s export_taxa_picrust/picrust_final_sequences_reverse.fasta -o placed_seqs_reproduce.tre -p 80 --intermediate placement_working_revised --ref_dir ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database_new/homd-v3v4/
+ 1038  hsp.py -i EC -t placed_seqs_revised_reverse_orig.tre -o EC_predicted_revised_reverse_orig.tsv.gz -p 80; hsp.py -i 16S -t placed_seqs_revised_reverse_orig.tre -o marker_nsti_predicted_revised_reverse_orig.tsv.gz -p 80;
+ 1039  ls
+ 1040  hsp.py -i EC -t placed_seqs_reproduce.tre -o ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database_new/homd-v3v4/EC_predicted_revised_reverse_orig.tsv.gz -p 80; hsp.py -i 16S -t placed_seqs_reproduce.tre -o ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database_new/homd-v3v4/marker_nsti_predicted_revised_reverse_orig.tsv.gz -p 80;
+ 1041  hsp.py --observed_trait_table HOMD_EC_counts_final.txt -t placed_seqs_revised.tre -o EC_predicted_revised.tsv.gz -p 80; hsp.py --observed_trait_table HOMD_final_16S_count.tsv -t placed_seqs_revised.tre -o marker_nsti_predicted_revised.tsv.gz -p 80;
+ 1042  hsp.py --observed_trait_table ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database_new/homd-v3v4/HOMD_EC_counts_final.txt -t placed_seqs_reproduce.tre -o EC_predicted_revised.tsv.gz -p 80; hsp.py --observed_trait_table ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database_new/homd-v3v4/HOMD_final_16S_count.tsv -t placed_seqs_reproduce.tre -o marker_nsti_predicted_revised.tsv.gz -p 80;
+ 1043  hsp.py --observed_trait_table ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database_new/HOMD_EC_counts_final.txt -t placed_seqs_reproduce.tre -o EC_predicted_revised.tsv.gz -p 80; hsp.py --observed_trait_table ~/LVM_Multistrain/Preprocessing/TB-COVID/medgenome_all_runs/trimmed/new_paired/humanreads_rem/all_batch/HOMD_new_database/HOMD/picrust_database_new/HOMD_final_16S_count.tsv -t placed_seqs_reproduce.tre -o marker_nsti_predicted_revised.tsv.gz -p 80;
+ 1044  metagenome_pipeline.py -i export_taxa_picrust/merged_feature_table_nocollapse.biom  -m marker_nsti_predicted_revised.tsv.gz -f EC_predicted_revised.tsv.gz -o EC_metagenome_out_trimed_revised_orig --strat_out --min_reads 10 --min_samples 3
+ 1045  metagenome_pipeline.py -i merged_nocollapse_picrust/  -m marker_nsti_predicted_revised.tsv.gz -f EC_predicted_revised.tsv.gz -o EC_metagenome_out_trimed_revised_orig --strat_out --min_reads 10 --min_samples 3
+ 1046  metagenome_pipeline.py -i merged_nocollapse_picrust/feature-table.biom  -m marker_nsti_predicted_revised.tsv.gz -f EC_predicted_revised.tsv.gz -o EC_metagenome_out_trimed_revised_orig --strat_out --min_reads 10 --min_samples 3
+ 1047  zcat marker_nsti_predicted_revised.tsv.gz 
+ 1048  ls export_taxa_picrust/
+ 1049  more  merged_nocollapse_picrust/feature-table.biom
+ 1050  more merged_feature_table_nocollapse.tsv 
+ 1051  more export_taxa_picrust/picrust_final_sequences.fasta 
+ 1052  more picrust_sequences.fasta 
+ 1053  more merged_feature_table_nocollapse.tsv 
+ 1054  more picrust_sequences.fasta 
+ 1055  more merged_feature_table_nocollapse.tsv 
+ 1056  ls
+ 1057  ls export_taxa_picrust/
+ 1058* more export_taxa_picrust/picru
+ 1059  ls export_taxa_picrust/
+ 1060  more picrust_sequences.fasta 
+ 1061  more picrust_sequences_final.fasta 
+ 1062  grep ">" picrust_sequences_final.fasta 
+ 1063  grep ">" picrust_sequences_final.fasta | cut -d ">" -f2
+ 1064  grep ">" picrust_sequences_final.fasta | cut -d ">" -f2 > seqids.txt
+ 1065  seqid=$(cat seqids.txt)
+ 1066  echo $seqid
+ 1067  awk 'NR==FNR { vals[NR] = $0; next } 
+     FNR <= 2 { print; next } 
+     { $1 = vals[FNR - 2]; OFS="\t"; print }' seqids.txt mer
+ 1068  awk 'NR==FNR { vals[NR] = $0; next } 
+     FNR <= 2 { print; next } 
+     { $1 = vals[FNR - 2]; OFS="\t"; print }' seqids.txt merged_feature_table_nocollapse.tsv
+ 1069  awk 'NR==FNR { vals[NR] = $0; next } 
+     FNR <= 2 { print; next } 
+     { $1 = vals[FNR - 2]; OFS="\t"; print }' seqids.txt merged_feature_table_nocollapse.tsv > merged_seqid.tsv
+ 1070  more merged_seqid.tsv 
+ 1071  biom convert -i merged_seqid.tsv -o merged.biom --table-type="OTU table" --to-hdf5
+ 1072  metagenome_pipeline.py -i merged.biom  -m marker_nsti_predicted_revised.tsv.gz -f EC_predicted_revised.tsv.gz -o EC_metagenome_out_trimed_revised_orig --strat_out --min_reads 10 --min_samples 3
+ 1073  pathway_pipeline.py -i EC_metagenome_out_trimed_revised_orig/pred_metagenome_unstrat.tsv.gz                     -o pathways_out_revised_orig                     --intermediate minpath_working                     -p 80 --per_sequence_contrib --per_sequence_abun EC_metagenome_out_trimed_revised_orig/seqtab_norm.tsv.gz --per_sequence_function EC_predicted_revised_reverse_orig.tsv.gz 
+ 1074  pathway_pipeline.py -i EC_metagenome_out_trimed_revised_orig/pred_metagenome_unstrat.tsv.gz                     -o pathways_out_revised_orig                     --intermediate minpath_working                     -p 80 --per_sequence_contrib --per_sequence_abun EC_metagenome_out_trimed_revised_orig/seqtab_norm.tsv.gz --per_sequence_function EC_predicted_revised.tsv.gz 
+ 1075  cd pathways_out_revised_orig/
+ 1076  gunzip *
+ 1077  bgzip *
+ 1078  cd ../
+ 1079  add_descriptions.py -i pathways_out_revised_homd/path_abun_unstrat_per_seq.tsv -m METACYC                     -o pathways_out_revised_homd/path_abun_unstrat_descrip_perseq.tsv.gz
+ 1080  add_descriptions.py -i pathways_out_revised_orig/path_abun_unstrat_per_seq.tsv -m METACYC                     -o pathways_out_revised_homd/path_abun_unstrat_descrip_perseq.tsv.gz
+ 1081  ls pathways_out_revised_
+ 1082  ls pathways_out_revised_orig/
+ 1083  add_descriptions.py -i pathways_out_revised_orig/path_abun_unstrat_per_seq.tsv -m METACYC                     -o pathways_out_revised_orig/path_abun_unstrat_descrip_perseq.tsv.gz
+ 1084  rm -r pathways_out_revised_homd/
+ 1085  cd pathways_out_revised_orig/
+ 1086  ls
+ 1087  gunzip path_abun_unstrat_descrip_perseq.tsv.gz
+ 1088  pwd
+ 1089  cd../
+ 1090  cd ../
+ 1091  pathway_pipeline.py -i EC_metagenome_out_trimed_revised_orig/pred_metagenome_unstrat.tsv.gz                     -o pathways_out_revised_orig                     --intermediate minpath_working                     -p 80 --per_sequence_contrib --per_sequence_abun EC_metagenome_out_trimed_revised_orig/seqtab_norm.tsv.gz --per_sequence_function EC_predicted_revised.tsv.gz 
+ 1092  metagenome_pipeline.py -i merged.biom  -m marker_nsti_predicted_revised.tsv.gz -f EC_predicted_revised.tsv.gz -o EC_metagenome_out_trimed_revised_orig --strat_out --min_reads 10 --min_samples 3
+ 1093  biom convert -i merged_seqid.tsv -o merged.biom --table-type="OTU table" --to-hdf5
+ 1094  metagenome_pipeline.py -i merged.biom  -m marker_nsti_predicted_revised.tsv.gz -f EC_predicted_revised.tsv.gz -o EC_metagenome_out_trimed_revised_orig --strat_out --min_reads 10 --min_samples 3
+ 1095  pathway_pipeline.py -i EC_metagenome_out_trimed_revised_orig/pred_metagenome_unstrat.tsv.gz                     -o pathways_out_revised_orig                     --intermediate minpath_working                     -p 80 --per_sequence_contrib --per_sequence_abun EC_metagenome_out_trimed_revised_orig/seqtab_norm.tsv.gz --per_sequence_function EC_predicted_revised.tsv.gz 
+ 1096  add_descriptions.py -i pathways_out_revised_orig/path_abun_unstrat_per_seq.tsv.gz -m METACYC                     -o pathways_out_revised_orig/path_abun_unstrat_descrip_perseq.tsv.gz
+ 1097  pw
+ 1098  pwd
+ 1099  cd pathways_out_revised_orig/
+ 1100  gunzip *
+ 1101  cd ../
+ 1102  ls
+ 1103  cd ../
+ 1104  ls
+ 1105  cd picrust_analysis/
+ 1106  ls
+ 1107  ls placement_working_revised/
+ 1108  ls placement_working_revised/epa_out/
+ 1109  ls placement_working_revised/epa_out/epa_info.log 
+ 1110  more placement_working_revised/epa_out/epa_info.log 
+ 1111  ls placement_working_revised/epa_out/
+ 1112  ls placement_working_revised/
+ 1113  ls placement_working_revised/study_seqs_hmmalign.fasta 
+ 1114  more placement_working_revised/study_seqs_hmmalign.fasta 
+ 1115  ls
+ 1116  more picrust_sequences_final.fasta 
+ 1117  ls
+ 1118  history 
+ 1119  history  > hist.txt

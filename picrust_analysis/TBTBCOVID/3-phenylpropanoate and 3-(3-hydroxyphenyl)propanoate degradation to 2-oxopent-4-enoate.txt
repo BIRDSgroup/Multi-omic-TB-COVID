@@ -1,0 +1,6 @@
+Readcount,Genus/Species
+34,Escherichia coli
+23,Klebsiella pneumoniae
+6,Acinetobacter
+5,Achromobacter xylosoxidans
+2,Kluyvera ascorbata

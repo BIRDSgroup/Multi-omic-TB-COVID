@@ -1,0 +1,81 @@
+Readcount,Genus/Species
+251,Neisseria
+193,Veillonella
+65,Mycobacterium tuberculosis
+62,Veillonella parvula
+56,Actinomyces
+39,Lautropia mirabilis
+34,Escherichia coli
+33,Selenomonas
+33,Selenomonas sputigena
+30,Selenomonas sp._HMT_501
+28,Schaalia
+27,Pseudomonas
+27,Treponema socranskii
+26,Haemophilus
+23,Neisseria bacilliformis
+23,Klebsiella pneumoniae
+21,Veillonella rogosae
+20,Kingella oralis
+18,Treponema
+16,Selenomonas noxia
+16,Lachnoanaerobaculum
+15,Enterobacter
+14,Haemophilus parahaemolyticus
+14,Neisseria macacae
+12,Acinetobacter
+11,Ottowia sp._HMT_894
+10,Sphingomonas glacialis
+10,Neisseria elongata
+10,Actinomyces sp._HMT_448
+8,Campylobacter curvus
+8,Veillonella atypica
+8,Mycobacterium
+7,Desulfovibrio fairfieldensis
+7,Neisseria oralis
+7,Mitsuokella sp._HMT_131
+7,Acinetobacter baumannii
+5,Desulfomicrobium orale
+5,Achromobacter xylosoxidans
+5,Streptococcus
+5,Treponema parvum
+4,Cronobacter sakazakii
+4,Bosea vestrisii
+4,Schaalia cardiffensis
+4,Microbacterium flavescens
+3,Kluyvera ascorbata
+3,Treponema pectinovorum
+3,Burkholderia cepacia
+3,Rothia
+3,Acidovorax
+3,Selenomonas infelix
+3,Eikenella corrodens
+2,Micrococcus luteus
+2,Brevundimonas diminuta
+2,Dermabacter hominis
+2,Mycobacterium leprae
+2,Acinetobacter junii
+2,Cutibacterium acnes
+2,Paracoccus yeei
+2,Treponema maltophilum
+1,Saccharibacteria_(TM7)_[G-1]
+1,Prevotella
+1,Pseudomonas otitidis
+1,Pseudomonas fluorescens
+1,Actinomyces graevenitzii
+1,Rothia dentocariosa
+1,Moraxella osloensis
+1,Pseudomonas stutzeri
+1,Aggregatibacter sp._HMT_949
+1,Lactococcus lactis
+1,Microbacterium
+1,Serratia marcescens
+1,Actinomyces oricola
+1,Enterobacter cancerogenus
+1,Veillonella denticariosi
+1,Corynebacterium jeikeium
+1,Brucella anthropi
+1,Roseomonas
+1,Actinomyces gerencseriae
+1,Acidovorax temperans
+1,Kingella

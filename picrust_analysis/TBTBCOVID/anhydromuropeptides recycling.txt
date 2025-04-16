@@ -1,0 +1,17 @@
+Readcount,Genus/Species
+39,Lautropia mirabilis
+34,Escherichia coli
+25,Pseudomonas
+23,Klebsiella pneumoniae
+15,Enterobacter
+11,Ottowia sp._HMT_894
+4,Cronobacter sakazakii
+3,Burkholderia cepacia
+3,Acidovorax
+3,Neisseria
+2,Neisseria macacae
+2,Kluyvera ascorbata
+1,Prevotella
+1,Streptococcus
+1,Acidovorax temperans
+1,Enterobacter cancerogenus

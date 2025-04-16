@@ -1,0 +1,17 @@
+Readcount,Genus/Species
+38,Lautropia mirabilis
+34,Escherichia coli
+27,Pseudomonas
+23,Klebsiella pneumoniae
+15,Enterobacter
+6,Haemophilus
+4,Cronobacter sakazakii
+3,Kluyvera ascorbata
+2,Achromobacter xylosoxidans
+1,Prevotella
+1,Streptococcus
+1,Enterobacter cancerogenus
+1,Serratia marcescens
+1,Aggregatibacter sp._HMT_949
+1,Pseudomonas fluorescens
+1,Pseudomonas otitidis
