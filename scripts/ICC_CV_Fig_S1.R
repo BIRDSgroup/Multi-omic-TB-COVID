@@ -26,7 +26,7 @@ ICC(shannon_matrix_na,missing=TRUE,lmer=TRUE)
 
 ##########CV calculation########################
 library("psych")
-ids<-c(1455,6016) #the ones with atleast 3 replicates
+ids<-c("PT331","PT258") #the ones with atleast 3 replicates
 
 type<-c("TB","TBCOVID")
 load("../data/genus_phseq.RData")
@@ -62,8 +62,7 @@ for(i in ids)
   mean<-c(mean,apply(subset, 1, mean))
   type_vector<-c(type_vector,rep(type[k],dim(subset)[1]))  
   rep_type<-c(rep_type,rep("biological samples",dim(subset)[1]))  
-  print(length(std))
-  print(dim(subset))
+
   k=k+1
 }
 
@@ -89,7 +88,8 @@ p<-ggplot(df,aes(x=Mean,y=CV,color=Type))+
   ggplot2::theme_bw() +
   ggplot2::theme(legend.position = "bottom") +
   stat_cor(method = "spearman", label.x.npc = "left", label.y.npc = "bottom")
-png_file<-paste0("../Figures/manuscript_results/CV_group_new.png")
+png_file<-paste0("manuscript_results/CV_group_new.png")
 png(png_file, res = 300, width = 1900, height = 1500)
 stdout <- capture.output(print(p))
 dev.off()
+

@@ -86,3 +86,7 @@ stdout <- capture.output(print(plot(net_genus_analyse,
                                     groupNames = c("TB", "TBCOVID"),
                                     hubBorderCol  = "gray40")))
 dev.off()
+
+#legend("bottom", title = "estimated association:", legend = c("+","-"), 
+#       col = c("#009900","red"), inset = 0.02, cex = 4, lty = 1, lwd = 4, 
+#       bty = "n", horiz = TRUE)

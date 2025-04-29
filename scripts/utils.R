@@ -7,12 +7,11 @@ library("vegan")
 library(pheatmap)
 library(viridis)
 library(phyloseq) 
-library(vegan) 
 library(reshape2) 
 library(data.table)
-library(dplyr)
 library(ggnewscale) 
 library(ggsignif)
+library(gridExtra)
 
 ######## Alpha diversity #############
 plot_alphadiversity<-function()
@@ -91,7 +90,7 @@ plot_pcoa <- function() {
   
   print(bs_res)
   
-  #print(permanova_results_bray)
+  print(permanova_results_bray)
   
   print(paste('R2=',round(permanova_results_bray$R2[1],3),', P=',permanova_results_bray$`Pr(>F)`[1],sep=''))
   
@@ -195,111 +194,111 @@ nature_theme <- function(x_axis_labels, y_label) {
 ############ generate phyloseq object  #########################
 gen_physeq<-function(f_level)
 {
-    mat_s<-read.table("data/merged_homd_tax.txt",header=TRUE,sep=",")  
-    mat_otu=read.table("data/merged_feature_table.tsv",header=FALSE,sep="\t")
-    mat_otu_df<-as.data.frame(mat_otu)
-
-    # Split taxonomy string into components
-    tax_components <- strsplit(mat_otu_df$V1, ";")
-
-    # Extract taxonomic levels into separate columns
-    df_split <- as.data.frame(matrix(unlist(sapply(tax_components, function(x) sub("^[a-z]+__", "", x))), ncol = 7, byrow = TRUE))
-
-    # Rename columns
-    colnames(df_split) <- c("kingdom", "phylum", "class", "order", "family", "genus", "species")
-
-    mat_otu_df<-cbind(df_split,mat_otu_df)
-    mat_otu_df<-mat_otu_df[,-which(names(mat_otu_df) == "V1")]
-    metadata=read.csv("data/metadata_R.csv",header=TRUE,sep=",")
-
-
-
-    colnames(mat_otu_df)[8:dim(mat_otu_df)[2]]<-c(as.vector(((metadata[c(1:dim(metadata)[1]),c(1:1)]))))
-
-    mat_otu_df_summarize<-function(f_level,mat_otu_df_copy){
-      mat_otu_df_reduce<-mat_otu_df_copy[(mat_otu_df_copy[f_level]!="__")[1:dim(mat_otu)[1],1],]
-      if(f_level!="species")
-      {
+  mat_s<-read.table("../data/merged_homd_tax.txt",header=TRUE,sep=",")  
+  mat_otu=read.table("../data/merged_feature_table.tsv",header=FALSE,sep="\t")
+  mat_otu_df<-as.data.frame(mat_otu)
+  
+  # Split taxonomy string into components
+  tax_components <- strsplit(mat_otu_df$V1, ";")
+  
+  # Extract taxonomic levels into separate columns
+  df_split <- as.data.frame(matrix(unlist(sapply(tax_components, function(x) sub("^[a-z]+__", "", x))), ncol = 7, byrow = TRUE))
+  
+  # Rename columns
+  colnames(df_split) <- c("kingdom", "phylum", "class", "order", "family", "genus", "species")
+  
+  mat_otu_df<-cbind(df_split,mat_otu_df)
+  mat_otu_df<-mat_otu_df[,-which(names(mat_otu_df) == "V1")]
+  metadata=read.csv("../data/metadata_R.csv",header=TRUE,sep=",")
+  
+  
+  
+  colnames(mat_otu_df)[8:dim(mat_otu_df)[2]]<-c(as.vector(((metadata[c(1:dim(metadata)[1]),c(1:1)]))))
+  
+  mat_otu_df_summarize<-function(f_level,mat_otu_df_copy){
+    mat_otu_df_reduce<-mat_otu_df_copy[(mat_otu_df_copy[f_level]!="__")[1:dim(mat_otu)[1],1],]
+    if(f_level!="species")
+    {
       summary_df <- mat_otu_df_reduce %>%
         group_by(!!sym(f_level)) %>%
         summarise(across(.cols = SM001:SM093, .fns = sum, na.rm = TRUE))
-      }
-      else
-        {summary_df<-mat_otu_df_reduce}
-      return(summary_df)
     }
-
-    summary_df<-mat_otu_df_summarize(f_level,mat_otu_df)
+    else
+    {summary_df<-mat_otu_df_reduce}
+    return(summary_df)
+  }
+  
+  summary_df<-mat_otu_df_summarize(f_level,mat_otu_df)
+  
+  summary_df_species<-mat_otu_df_summarize("species",mat_otu_df)
+  
+  if(f_level!="species"){
+    mat_otu_final=summary_df[c(1:dim(summary_df)[1]),c(2:dim(summary_df)[2])]
+    mat1_filtered<-data.frame(summary_df[[f_level]])
+  }else
+  {
+    mat_otu_final=summary_df[c(1:dim(summary_df)[1]),c(8:dim(summary_df)[2])]
     
-    summary_df_species<-mat_otu_df_summarize("species",mat_otu_df)
-
-    if(f_level!="species"){
-      mat_otu_final=summary_df[c(1:dim(summary_df)[1]),c(2:dim(summary_df)[2])]
-      mat1_filtered<-data.frame(summary_df[[f_level]])
-    }else
-      {
-      mat_otu_final=summary_df[c(1:dim(summary_df)[1]),c(8:dim(summary_df)[2])]
-
-      mat1_filtered<-mat_s
-      }
-
-    colnames(mat1_filtered)<-c(f_level)
-
-    repeatsamples <- metadata %>%
-      group_by(X.id) %>%
-      filter(n() > 1) %>%
-      ungroup()
-    colnames(mat_otu_final)<-metadata$X.OTU
-    #save.image(paste0("data/repeatsamples_",f_level,"_phseq.RData"))
-    save(mat_otu_final, repeatsamples,metadata,file = paste0("../data/repeatsamples_",f_level,"_phseq.RData"))
-    non_repeatsamples <- metadata %>%
-      group_by(X.id) %>%
-      filter(n() == 1) %>%
-      ungroup()
-    colnames(mat_otu_final)<-metadata$X.OTU
-    non_repeatsamples<-as.data.frame(non_repeatsamples)
-    repeatsamples<-as.data.frame(repeatsamples)
-    s_id<-c()
-    species_df<-summary_df_species[c(1:dim(summary_df_species)[1]),c(2:dim(summary_df_species)[2])]
-    for(i in unique(repeatsamples$X.id))
+    mat1_filtered<-mat_s
+  }
+  
+  colnames(mat1_filtered)<-c(f_level)
+  
+  repeatsamples <- metadata %>%
+    group_by(X.id) %>%
+    filter(n() > 1) %>%
+    ungroup()
+  colnames(mat_otu_final)<-metadata$X.OTU
+  #save.image(paste0("data/repeatsamples_",f_level,"_phseq.RData"))
+  save(mat_otu_final, repeatsamples,metadata,file = paste0("../data/repeatsamples_",f_level,"_phseq.RData"))
+  non_repeatsamples <- metadata %>%
+    group_by(X.id) %>%
+    filter(n() == 1) %>%
+    ungroup()
+  colnames(mat_otu_final)<-metadata$X.OTU
+  non_repeatsamples<-as.data.frame(non_repeatsamples)
+  repeatsamples<-as.data.frame(repeatsamples)
+  s_id<-c()
+  species_df<-summary_df_species[c(1:dim(summary_df_species)[1]),c(2:dim(summary_df_species)[2])]
+  for(i in unique(repeatsamples$X.id))
+  {
+    read_count<-c()
+    ids<-repeatsamples[repeatsamples$X.id==i,]
+    for(j in ids$X.OTU)
     {
-      read_count<-c()
-      ids<-repeatsamples[repeatsamples$X.id==i,]
-      for(j in ids$X.OTU)
-      {
-          s<-sum(species_df[,j])
-          read_count<-append(read_count,s)
-      }
-      s_id<-append(s_id,ids$X.OTU[which(read_count==max(read_count))])
-      non_repeatsamples<-bind_rows(non_repeatsamples,ids[which(read_count==max(read_count)),])
+      s<-sum(species_df[,j])
+      read_count<-append(read_count,s)
     }
-    non_repeatsamples$X.OTU
-    mat_otu_final<-mat_otu_final[,non_repeatsamples$X.OTU]
-    metadata<-non_repeatsamples
-
-    #create phyloseq object
-    tt=tax_table(mat1_filtered)
-    colnames(tt)<-colnames(mat1_filtered)
-    rownames(tt)<-c(mat1_filtered[[f_level]])
-    physeq_sam=sample_data(metadata)
-    physeq_taxtable=phyloseq::tax_table(tt)
-    mat_otu_final<-as.matrix((mat_otu_final))
-    colnames(mat_otu_final) <-sample_names(physeq_sam)
-    rownames(mat_otu_final)<-rownames(tt)
-    physeq_otu=otu_table(mat_otu_final,TRUE)
-    physeq = phyloseq(physeq_otu, physeq_taxtable,physeq_sam)
-    sample_data(physeq)$X.batch_no<-as.factor(sample_data(physeq)$X.batch_no)
-    sample_data(physeq)$X.type<-as.factor(sample_data(physeq)$X.type)
-    sample_data(physeq)$Diabetes<-as.factor(sample_data(physeq)$Diabetes)
-    sample_data(physeq)$Alcohol<-as.factor(sample_data(physeq)$Alcohol)
-    sample_data(physeq)$Smear<-as.factor(sample_data(physeq)$Smear)
-    sample_data(physeq)$Gender<-as.factor(sample_data(physeq)$Gender)
-    sample_data(physeq)$TOBACCO.Smoking<-as.factor(sample_data(physeq)$TOBACCO.Smoking)
-    sample_data(physeq)$Age<-as.numeric(sample_data(physeq)$Age)
-    sample_data(physeq)$Height<-as.numeric(sample_data(physeq)$Height)
-    sample_data(physeq)$Weight<-as.numeric(sample_data(physeq)$Weight)
-
-    save(physeq,file=paste0("../data/",f_level,"_phseq.RData"))
+    s_id<-append(s_id,ids$X.OTU[which(read_count==max(read_count))])
+    non_repeatsamples<-bind_rows(non_repeatsamples,ids[which(read_count==max(read_count)),])
+  }
+  non_repeatsamples$X.OTU
+  mat_otu_final<-mat_otu_final[,non_repeatsamples$X.OTU]
+  metadata<-non_repeatsamples
+  
+  #create phyloseq object
+  tt=tax_table(mat1_filtered)
+  colnames(tt)<-colnames(mat1_filtered)
+  rownames(tt)<-c(mat1_filtered[[f_level]])
+  physeq_sam=sample_data(metadata)
+  physeq_taxtable=phyloseq::tax_table(tt)
+  mat_otu_final<-as.matrix((mat_otu_final))
+  colnames(mat_otu_final) <-sample_names(physeq_sam)
+  rownames(mat_otu_final)<-rownames(tt)
+  physeq_otu=otu_table(mat_otu_final,TRUE)
+  physeq = phyloseq(physeq_otu, physeq_taxtable,physeq_sam)
+  sample_data(physeq)$X.batch_no<-as.factor(sample_data(physeq)$X.batch_no)
+  sample_data(physeq)$X.type<-as.factor(sample_data(physeq)$X.type)
+  sample_data(physeq)$Diabetes<-as.factor(sample_data(physeq)$Diabetes)
+  sample_data(physeq)$Alcohol<-as.factor(sample_data(physeq)$Alcohol)
+  sample_data(physeq)$Smear<-as.factor(sample_data(physeq)$Smear)
+  sample_data(physeq)$Gender<-as.factor(sample_data(physeq)$Gender)
+  sample_data(physeq)$TOBACCO.Smoking<-as.factor(sample_data(physeq)$TOBACCO.Smoking)
+  sample_data(physeq)$Age<-as.numeric(sample_data(physeq)$Age)
+  sample_data(physeq)$Height<-as.numeric(sample_data(physeq)$Height)
+  sample_data(physeq)$Weight<-as.numeric(sample_data(physeq)$Weight)
+  
+  save(physeq,file=paste0("../data/",f_level,"_phseq.RData"))
 }
 
 batch_effect_analysis<-function(t_level)
@@ -381,7 +380,7 @@ batch_effect_analysis<-function(t_level)
   
   
   ggsave(paste0("../Figures/manuscript_results/pca_batch_",t_level,".png"),plot = PCAplot, dpi = 300,width=3,height=3)
-
+  
   
   dist_matrix <- vegdist(t(otu_table(physeq)), method = "bray")
   dissimilarity_values <- as.matrix(dist_matrix)

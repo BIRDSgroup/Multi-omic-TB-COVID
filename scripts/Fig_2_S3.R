@@ -53,8 +53,7 @@ temp_plot1<- df +
   ggplot2::ylab("Genus read counts (CLR-transformed)") +
   ggplot2::theme(legend.position = "none") 
 temp_plot1
-
-getwdggsave("../Figures/manuscript_results/Sample_scatter.png",temp_plot1,width=5,height=3,units="in")
+ggsave("../Figures/manuscript_results/Sample_scatter.png",temp_plot1,width=5,height=3,units="in")
 
 ##########   Fig 2b  ########################################
 
@@ -201,7 +200,7 @@ for(j in 32:32)
     ggplot2::theme(legend.position = "none") 
   
   #temp_plot1
-  png_file<-paste0("Figures/manuscript_results/TB Severity.png")
+  png_file<-paste0("../Figures/manuscript_results/TB Severity.png")
   png(png_file, res = 300, width = 600, height = 900)
   stdout <- capture.output(print(temp_plot1))
   dev.off()
