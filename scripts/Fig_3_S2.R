@@ -56,4 +56,3 @@ t_level="species"
 load(paste0("../data/",t_level,"_phseq.RData"))
 temp<-plot_toptaxa(t_level)
 ggsave("../Figures/manuscript_results/top_species.png",plot=temp,dpi=300,width=5,height=6)
-

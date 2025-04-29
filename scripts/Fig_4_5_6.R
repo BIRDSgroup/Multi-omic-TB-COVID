@@ -3,9 +3,9 @@ source("DA_analysis_functions.R")
 grouptype="type"
 bothTB=FALSE
 conf<-0.20
-f_width<-21       #genus,species 12 pathway 21
+f_width<-12       #genus,species 12 pathway 21
 m_width=14        #species 14 
-level<-c("family" )
+level<-c("species" )
 
 for(t_level in level)
 {

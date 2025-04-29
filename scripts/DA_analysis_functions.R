@@ -22,6 +22,13 @@ DA_groups<-function(physeq,type1,type2)
   
   physeq_filtered <- subset_samples(physeq, X.type %in% c(type1, type2))
   
+  if(grouptype=="status")
+  {
+    status<-rep("cured/lost_to_followup",48)
+    status[c(10,11,15,19,21,28,29,30,34,42,44)]<-"relapse/DR/died"
+    sample_data(physeq_filtered)$X.type<-status
+  }
+  
   num_samples <- nsamples(physeq_filtered)
   threshold_samples <- ceiling(0.05 * num_samples)
   
@@ -38,7 +45,7 @@ DA_groups<-function(physeq,type1,type2)
   }
   
   sig_taxa<-sig_taxa(physeq_sub,type1,type2,bothTB)
-  setwd("../../../scripts")
+  setwd("../../../../scripts")
   return(sig_taxa)
 }
 
@@ -195,8 +202,6 @@ sig_taxa<-function(physeq,type1,type2,bothTB)
     abs_lfc<-abs(linda_df$LFC)
     sorted_linda<- linda_df[order(-abs(linda_df$LFC)),]
     top_taxa <- sorted_linda[abs(sorted_linda$LFC)>=1.5,"Taxa"]
-    #l_taxa<-load(top_taxa.RData)
-    #top_taxa <- sorted_linda[,l_taxa]
     #######################################################################
     
     ps<-t(ps)
