@@ -1,49 +1,49 @@
-Sample id,Treatment ,Drug Resistance,Single/Multiple episodes
-SM004,Cured,No,Single
-SM005,Cured,No,Single
-SM009,Cured,No,Single
-SM010,Cured,No,Single
-SM017,Cured,No,Single
-SM018,Cured,No,Single
-SM021,Lost to follow up,No,Single
-SM022,Lost to follow up,No,Single
-SM025,Cured,No,Single
-SM026,On treatment,No,Multiple
-SM027,On treatment,No ,Multiple
-SM028,Cured,No,Single
-SM030,Cured,No,Single
-SM031,Cured,No,Single
-SM032,Lost to follow up,Yes,Multiple
-SM034,Cured,No,Single
-SM035,Cured,No,Single
-SM037,Cured,No,Single
-SM038,Cured,No,Multiple
-SM040,Cured,No,Single
-SM041,Cured,No,Multiple
-SM042,Cured,No,Single
-SM043,Cured,No,Single
-SM044,Cured,No,Single
-SM045,Cured,No,Single
-SM046,Cured,No,Single
-SM047,Lost to follow up,No,Single
-SM048,Lost to follow up,No,Multiple
-SM049,Cured,No,Multiple
-SM050,Cured,No,Multiple
-SM051,Cured,No,Single
-SM052,Cured,No,Single
-SM053,Cured,No,Single
-SM054,Lost to follow up,No,Multiple
-SM055,Cured,No,Single
-SM056,Lost to follow up,No,Single
-SM057,Lost to follow up,No,Single
-SM060,Lost to follow up,No,Single
-SM062,Cured,No,Single
-SM063,Cured,No,Single
-SM064,Cured,No,Single
-SM065,Lost to follow up,Yes,Single
-SM067,Cured,No,Single
-SM069,Died,No,Single
-SM070,Cured,No,Single
-SM066,Cured,No,Single
-SM088,Cured,No,Single
-SMO08,Cured,No,Single
+Sample id,Treatment ,Drug Resistance,Single/Multiple episodes,Challenging
+SM004,Cured,No,Single,0
+SM005,Cured,No,Single,0
+SM009,Cured,No,Single,0
+SM010,Cured,No,Single,0
+SM017,Cured,No,Single,0
+SM018,Cured,No,Single,0
+SM021,Lost to follow up,No,Single,0
+SM022,Lost to follow up,No,Single,0
+SM025,Cured,No,Single,0
+SM026,On treatment,No,Multiple,1
+SM027,On treatment,No,Multiple,1
+SM028,Cured,No,Single,0
+SM030,Cured,No,Single,0
+SM031,Cured,No,Single,0
+SM032,Lost to follow up,Yes,Multiple,1
+SM034,Cured,No,Single,0
+SM035,Cured,No,Single,0
+SM037,Cured,No,Single,0
+SM038,Cured,No,Multiple,1
+SM040,Cured,No,Single,0
+SM041,Cured,No,Multiple,1
+SM042,Cured,No,Single,0
+SM043,Cured,No,Single,0
+SM044,Cured,No,Single,0
+SM045,Cured,No,Single,0
+SM046,Cured,No,Single,0
+SM047,Lost to follow up,No,Single,0
+SM048,Lost to follow up,No,Multiple,1
+SM049,Cured,No,Multiple,1
+SM050,Cured,No,Multiple,1
+SM051,Cured,No,Single,0
+SM052,Cured,No,Single,0
+SM053,Cured,No,Single,0
+SM054,Lost to follow up,No,Multiple,1
+SM055,Cured,No,Single,0
+SM056,Lost to follow up,No,Single,0
+SM057,Lost to follow up,No,Single,0
+SM060,Lost to follow up,No,Single,0
+SM062,Cured,No,Single,0
+SM063,Cured,No,Single,0
+SM064,Cured,No,Single,0
+SM065,Lost to follow up,Yes,Single,1
+SM067,Cured,No,Single,0
+SM069,Died,No,Single,1
+SM070,Cured,No,Single,0
+SM066,Cured,No,Single,0
+SM088,Cured,No,Single,0
+SM008,Cured,No,Single,0
