@@ -19,7 +19,7 @@ You should have received a copy of the GNU Lesser General Public License along w
 
 The [Figures](https://github.com/BIRDSgroup/Multi-omic-TB-COVID/tree/main/Figures) folder is used as the output folder for saving the figures from different analyses. 
 
-The [data](https://github.com/BIRDSgroup/Multi-omic-TB-COVID/tree/main/data) folder has the necessary input for running the different scripts. 
+The [data](https://github.com/BIRDSgroup/Multi-omic-TB-COVID/tree/main/data) folder has the necessary input files for running the different scripts. 
 
 The [scripts](https://github.com/BIRDSgroup/Multi-omic-TB-COVID/tree/main/scripts) folder has the codes for performing different metagenomic analyses.
 
