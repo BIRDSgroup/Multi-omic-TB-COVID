@@ -1,7 +1,7 @@
 library(patchwork)
 source("utils.R")
 
-##########   Fig 3a and S2a ########################################
+##########   Fig 3a and S4a ########################################
 
 t_level="genus"
 load(paste0("../data/",t_level,"_phseq.RData"))
@@ -14,7 +14,7 @@ temp<-plot_alphadiversity()
 ggsave("../Figures/manuscript_results/alphadiversity_species1.png",plot=temp,dpi=300,width=5,height=6)
 
 
-##########   Fig 3b and S2b ########################################
+##########   Fig 3b and S4b ########################################
 
 load("../data/species_phseq.RData")
 pair<-c("Control","TB")
@@ -45,7 +45,7 @@ final_plot
 ggsave("../Figures/manuscript_results/pca_genus.png",plot=final_plot,dpi=300)
 
 
-##########   Fig 3c and S2c ########################################
+##########   Fig 3c and S4c ########################################
 
 t_level="genus"
 load(paste0("../data/",t_level,"_phseq.RData"))
