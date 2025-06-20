@@ -6,14 +6,7 @@ library(seriation)
 library(ComplexHeatmap)
 library(stringr)
 library(RColorBrewer)
-cl_cb <- function(hcl, mat){
-  # Recalculate manhattan distances for reorder method
-  dists <- dist(mat, method = "manhattan")
-  
-  # Perform reordering according to OLO method
-  hclust_olo <- reorder(hcl, dists)
-  return(hclust_olo)
-}
+
 
 
 ############# Fig 8 ######################################
@@ -69,12 +62,12 @@ ann_colors <- list(
 
 top_h<-HeatmapAnnotation( "Single/Multiple episodes"=status$`Single/Multiple episodes`,`Treatment status`=status$Treatment,`Drug resistance status` = status$`Drug Resistance`,"Group" = sample_data(physeq_filtered)$X.type,col=ann_colors,
                           show_legend = TRUE)
-#bottom_h<-HeatmapAnnotation("Adverse outcome"=as.factor(status$Challenging),col=ann_colors)
-bottom_h<-HeatmapAnnotation("Adverse outcome"=as.factor(status$Challenging),"Gender"=sample_data(physeq_filtered)$Gender,col=ann_colors)
+bottom_h<-HeatmapAnnotation("Adverse outcome"=as.factor(status$Challenging),col=ann_colors)
+#bottom_h<-HeatmapAnnotation("Adverse outcome"=as.factor(status$Challenging),"Gender"=sample_data(physeq_filtered)$Gender,col=ann_colors)
 
 status$`Drug Resistance`<-factor(trimws(status$`Drug Resistance`))
 #col=colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(100)
-h<-Heatmap(mat_otu_final,bottom_annotation=bottom_h,cluster_columns=hclust(dist(t(mat_otu_final)), method = "ward.D2"),left_annotation=row_h,top_annotation=top_h,col=colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(100),
+h<-Heatmap(mat_otu_final,bottom_annotation=bottom_h,cluster_columns=hclust(dist(t(mat_otu_final)), method ="complete"),left_annotation=row_h,top_annotation=top_h,col=colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(100),
            heatmap_legend_param = list(title = "clr(Pathway abundance)",direction="horizontal"),show_heatmap_legend = TRUE,
            heatmap_width = unit(24, "cm"), 
            heatmap_height = unit(18, "cm"),cluster_rows=TRUE,column_split = 2,
@@ -82,7 +75,7 @@ h<-Heatmap(mat_otu_final,bottom_annotation=bottom_h,cluster_columns=hclust(dist(
 
                           
                           
-png("../Figures/manuscript_results/pathogen_heatmap_1_gender.png", width=5000,height=2900,res = 300)
+png("../Figures/manuscript_results/pathway_heatmap.png", width=5000,height=2900,res = 300)
 draw(h, annotation_legend_side = "bottom",heatmap_legend_side="top")
 dev.off()
 
@@ -102,45 +95,58 @@ colnames(mat_otu_final_species)<-sample_data(physeq_filtered)$X.type
 
 
 
-h<-Heatmap(mat_otu_final_species,cluster_columns=hclust(dist(t(mat_otu_final)),method = "ward.D2"),
+h<-Heatmap(mat_otu_final_species,cluster_columns=hclust(dist(t(mat_otu_final)),method = "complete"),
            heatmap_legend_param = list(title = "clr(Species abundance)",direction="horizontal"),show_heatmap_legend = TRUE,
-           heatmap_width = unit(24, "cm"), 
+           heatmap_width = unit(24, "cm"), row_names_gp = gpar(fontface = "italic"),
            heatmap_height = unit(8, "cm"),show_column_dend = FALSE,column_split = 2)
 h
 
-png("../Figures/manuscript_results/heatmap_2_gender.png", width=5000,height=2700,res = 300)
+png("../Figures/manuscript_results/pathogen_heatmap.png", width=5000,height=2700,res = 300)
 draw(h, annotation_legend_side = "bottom",heatmap_legend_side="top")
 dev.off()
 
 
-sp<-c("Prevotella melaninogenica","Capnocytophaga gingivalis","Veillonella parvula","Escherichia coli")
+sp<-c("Lancefieldella parvula","Prevotella pallens","Rothia mucilaginosa","Stomatobaculum longum","Saccharibacteria_(TM7)_[G-3] bacterium_HMT_351","Prevotella melaninogenica","Capnocytophaga gingivalis","Veillonella parvula","Escherichia coli")
 
+
+physeq_filtered <- subset_samples(physeq, X.type %in% c("TB", "TBCOVID"))
+mat_otu_final_species<-otu_table(physeq_filtered)
+mat_otu_final_species=logratio.transfo(t(mat_otu_final_species+1),logratio = 'CLR')
+mat_otu_final_species<-t(mat_otu_final_species)
 mat_otu_final_species<-(mat_otu_final_species[sp,])
+colnames(mat_otu_final_species)<-sample_data(physeq_filtered)$X.OTU
+
 
 class(mat_otu_final_species) <- "matrix"
 top_h<-HeatmapAnnotation( "Gender"=sample_data(physeq_filtered)$Gender, show_legend = TRUE)
-h<-Heatmap(mat_otu_final_species,cluster_columns=hclust(dist(t(mat_otu_final_species)),method = "ward.D2"),top_annotation=top_h,col=colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(100),
+h<-Heatmap(mat_otu_final_species,cluster_columns=hclust(dist(t(mat_otu_final_species)),method = "complete"),top_annotation=top_h,col=colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(10),
            heatmap_legend_param = list(title = "clr(Species abundance)",direction="horizontal"),show_heatmap_legend = TRUE,
-           heatmap_width = unit(24, "cm"), 
+           heatmap_width = unit(24, "cm"), row_names_gp = gpar(fontface = "italic"), show_column_names = FALSE,
            heatmap_height = unit(8, "cm"),show_column_dend = FALSE,column_split = 2, show_row_names = FALSE)
 
 
 
 
 ordered_indices <- order(sample_data(physeq_filtered)$X.type)
-matrix_data_ordered <- mat_otu_final_species[, ordered_indices]
+matrix_data_ordered <- mat_otu_final_species[sp, ordered_indices]
 group<-sample_data(physeq_filtered)$X.type
 group_ordered <- group[ordered_indices]
+
 
 # Then plot
 
 top_h<-HeatmapAnnotation( "Gender"=sample_data(physeq_filtered)$Gender[ordered_indices], show_legend = TRUE)
-Heatmap(matrix_data_ordered,top_annotation=top_h,
+h<-Heatmap(matrix_data_ordered,top_annotation=top_h,col=colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(400),
         column_split = group_ordered,  # Split columns by group
         cluster_columns = FALSE,        # Do not cluster columns within groups
+        cluster_rows = TRUE,row_names_gp = gpar(fontface = "italic"),
         show_column_names = TRUE,heatmap_width = unit(24, "cm"), 
-        heatmap_height = unit(8, "cm"),)
+        heatmap_height = unit(8, "cm"),heatmap_legend_param = list(title = "clr(Species abundance)",direction="horizontal"))
 
+h
+png("../Figures/manuscript_results/DA_gender.png", width=5000,height=2700,res = 300)
+draw(h, annotation_legend_side = "bottom",heatmap_legend_side="top")
+dev.off()
 
 h<-Heatmap(mat_otu_final_species,cluster_columns=hclust(dist(t(mat_otu_final_species)),method = "ward.D2"),top_annotation=top_h,col=colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(100),
            heatmap_legend_param = list(title = "clr(Species abundance)",direction="horizontal"),show_heatmap_legend = TRUE,
@@ -150,7 +156,7 @@ h<-Heatmap(mat_otu_final_species,cluster_columns=hclust(dist(t(mat_otu_final_spe
 h
 
 
-png("../Figures/manuscript_results/gender_heatmap2.png", width=5000,height=2700,res = 300)
+png("../Figures/manuscript_results/DA_gender.png", width=5000,height=2700,res = 300)
 draw(h, annotation_legend_side = "bottom",heatmap_legend_side="top")
 dev.off()
 
@@ -197,7 +203,7 @@ pgplot<-ggplot(pathogen_data, aes(x = Pathogen, y=count,fill = Group)) +
   labs(x = "Pathogen", y = "Number of Individuals") +
   ggplot2::theme_bw()+
   ggplot2::theme(
-    axis.text.x = ggplot2::element_text(size = 10, vjust = 1, hjust = 1, angle = 45),
+    axis.text.x = ggplot2::element_text(size = 10, vjust = 1, hjust = 1, angle = 45,face="italic"),
     axis.text.y = ggplot2::element_text(size = 10, hjust = 1),
     axis.title = ggplot2::element_text(size = 10),
     legend.title = ggplot2::element_text(size = 10, face = 'bold'),
@@ -211,7 +217,7 @@ pgplot<-ggplot(pathogen_data, aes(x = Pathogen, y=count,fill = Group)) +
     legend.position = "top"
   ) 
 
-png_file<-paste0("Figures/manuscript_results/pathogen.png")
+png_file<-paste0("../Figures/manuscript_results/pathogen.png")
 png(png_file, res = 300, width = 2000, height = 2000)
 stdout <- capture.output(print(pgplot))
 dev.off()
