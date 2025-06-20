@@ -245,6 +245,6 @@ png(png_file, res = 300, width = 600, height = 1100)
 stdout <- capture.output(print(temp_plot1))
 dev.off()
 
-##########   Fig S3 ########################################
+##########   Fig S5 ########################################
 batch_effect_analysis("genus")
 batch_effect_analysis("species")
